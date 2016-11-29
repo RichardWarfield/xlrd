@@ -1,0 +1,1085 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLSPHINXOPTS	.\docs\make.bat	/^	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%$/;"	v
+ALLSPHINXOPTS	.\docs\make.bat	/^set ALLSPHINXOPTS=-d %BUILDDIR%\/doctrees %SPHINXOPTS% .$/;"	v
+ALL_FMLA_TYPES	.\xlrd\formula.py	/^ALL_FMLA_TYPES = 63$/;"	v
+BIFF_FIRST_UNICODE	.\xlrd\biffh.py	/^BIFF_FIRST_UNICODE = 80$/;"	v
+BUILDDIR	.\docs\make.bat	/^set BUILDDIR=_build$/;"	v
+BYTES_IO	.\xlrd\timemachine.py	/^    from cStringIO import StringIO as BYTES_IO$/;"	i
+BYTES_IO	.\xlrd\timemachine.py	/^    from io import BytesIO as BYTES_IO$/;"	i
+BYTES_LITERAL	.\xlrd\timemachine.py	/^    BYTES_LITERAL = lambda x: x$/;"	v
+BYTES_LITERAL	.\xlrd\timemachine.py	/^    BYTES_LITERAL = lambda x: x.encode('latin1')$/;"	v
+BYTES_ORD	.\xlrd\timemachine.py	/^    BYTES_ORD = lambda byte: byte$/;"	v
+BYTES_ORD	.\xlrd\timemachine.py	/^    BYTES_ORD = ord$/;"	v
+BaseObject	.\xlrd\biffh.py	/^class BaseObject(object):$/;"	c
+BaseObject	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+BaseObject	.\xlrd\formula.py	/^    XLRDError, hex_char_dump, error_text_from_code, BaseObject$/;"	i
+Book	.\tests\test_workbook.py	/^from xlrd.book import Book$/;"	i
+Book	.\xlrd\__init__.py	/^from .book import Book, colname$/;"	i
+Book	.\xlrd\book.py	/^class Book(BaseObject):$/;"	c
+Book	.\xlrd\xlsx.py	/^from .book import Book, Name$/;"	i
+COL_ERR	.\tests\test_sheet.py	/^COL_ERR = NCOLS + 10$/;"	v
+Cell	.\xlrd\sheet.py	/^class Cell(BaseObject):$/;"	c
+Colinfo	.\xlrd\sheet.py	/^class Colinfo(BaseObject):$/;"	c
+CompDoc	.\xlrd\compdoc.py	/^class CompDoc(object):$/;"	c
+CompDocError	.\xlrd\compdoc.py	/^class CompDocError(Exception):$/;"	c
+DATEFORMAT	.\xlrd\biffh.py	/^DATEFORMAT = FDT$/;"	v
+DATEMODE	.\tests\test_xldate.py	/^DATEMODE = 0 # 1900-based$/;"	v
+DEBUG	.\xlrd\biffh.py	/^DEBUG = 0$/;"	v
+DEBUG	.\xlrd\book.py	/^DEBUG = 0$/;"	v
+DEBUG	.\xlrd\formatting.py	/^DEBUG = 0$/;"	v
+DEBUG	.\xlrd\sheet.py	/^DEBUG = 0$/;"	v
+DEBUG	.\xlrd\xlsx.py	/^DEBUG = 0$/;"	v
+DLF	.\xlrd\xlsx.py	/^DLF = sys.stdout # Default Log File$/;"	v
+DirNode	.\xlrd\compdoc.py	/^class DirNode(object):$/;"	c
+EOCSID	.\xlrd\compdoc.py	/^EOCSID = -2$/;"	v
+ET	.\xlrd\xlsx.py	/^                        try: import elementtree.ElementTree as ET$/;"	i
+ET	.\xlrd\xlsx.py	/^                    try: import xml.etree.ElementTree as ET$/;"	i
+ET	.\xlrd\xlsx.py	/^                try: import lxml.etree as ET$/;"	i
+ET	.\xlrd\xlsx.py	/^            try: import cElementTree as ET$/;"	i
+ET	.\xlrd\xlsx.py	/^        import xml.etree.ElementTree as ET$/;"	i
+ET	.\xlrd\xlsx.py	/^        try: import xml.etree.cElementTree as ET$/;"	i
+ET	.\xlrd\xlsx.py	/^ET = None$/;"	v
+ET_has_iterparse	.\xlrd\xlsx.py	/^ET_has_iterparse = False$/;"	v
+EVILSID	.\xlrd\compdoc.py	/^EVILSID = -5$/;"	v
+EXCEL_TEXT_TYPES	.\xlrd\timemachine.py	/^        EXCEL_TEXT_TYPES = (str, unicode)$/;"	v
+EXCEL_TEXT_TYPES	.\xlrd\timemachine.py	/^    EXCEL_TEXT_TYPES = (str, bytes, bytearray) # xlwt: isinstance(obj, EXCEL_TEXT_TYPES)$/;"	v
+ElementTree	.\xlrd\xlsx.py	/^                            raise Exception("Failed to import an ElementTree implementation")$/;"	i
+Element_has_iter	.\xlrd\xlsx.py	/^Element_has_iter = False$/;"	v
+EqNeAttrs	.\xlrd\formatting.py	/^class EqNeAttrs(object):$/;"	c
+FDT	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+FGE	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+FMLA_TYPEDESCR_MAP	.\xlrd\formula.py	/^FMLA_TYPEDESCR_MAP = {$/;"	v
+FMLA_TYPE_ARRAY	.\xlrd\formula.py	/^FMLA_TYPE_ARRAY = 4$/;"	v
+FMLA_TYPE_CELL	.\xlrd\formula.py	/^FMLA_TYPE_CELL = 1$/;"	v
+FMLA_TYPE_CELL	.\xlrd\sheet.py	/^from .formula import dump_formula, decompile_formula, rangename2d, FMLA_TYPE_CELL, FMLA_TYPE_SHARED$/;"	i
+FMLA_TYPE_COND_FMT	.\xlrd\formula.py	/^FMLA_TYPE_COND_FMT = 8$/;"	v
+FMLA_TYPE_DATA_VAL	.\xlrd\formula.py	/^FMLA_TYPE_DATA_VAL = 16$/;"	v
+FMLA_TYPE_NAME	.\xlrd\formula.py	/^FMLA_TYPE_NAME = 32$/;"	v
+FMLA_TYPE_SHARED	.\xlrd\formula.py	/^FMLA_TYPE_SHARED = 2$/;"	v
+FMLA_TYPE_SHARED	.\xlrd\sheet.py	/^from .formula import dump_formula, decompile_formula, rangename2d, FMLA_TYPE_CELL, FMLA_TYPE_SHARED$/;"	i
+FNU	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+FREESID	.\xlrd\compdoc.py	/^FREESID = -1$/;"	v
+FTX	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+FUN	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+FUNC_RANK	.\xlrd\formula.py	/^FUNC_RANK = 90$/;"	v
+F_TAG	.\xlrd\xlsx.py	/^F_TAG = U_SSML12 + 'f' # cell child: formula$/;"	v
+Font	.\xlrd\formatting.py	/^class Font(BaseObject, EqNeAttrs):$/;"	c
+Format	.\xlrd\formatting.py	/^class Format(BaseObject, EqNeAttrs):$/;"	c
+Format	.\xlrd\sheet.py	/^from .formatting import nearest_colour_index, Format$/;"	i
+Format	.\xlrd\xlsx.py	/^from .formatting import is_date_format_string, Format, XF$/;"	i
+FormulaError	.\xlrd\formula.py	/^class FormulaError(Exception):$/;"	c
+Hyperlink	.\xlrd\sheet.py	/^class Hyperlink(BaseObject):$/;"	c
+I18NSPHINXOPTS	.\docs\make.bat	/^	set I18NSPHINXOPTS=-D latex_paper_size=%PAPER% %I18NSPHINXOPTS%$/;"	v
+I18NSPHINXOPTS	.\docs\make.bat	/^set I18NSPHINXOPTS=%SPHINXOPTS% .$/;"	v
+IS_TAG	.\xlrd\xlsx.py	/^IS_TAG = U_SSML12 + 'is' # cell child: inline string$/;"	v
+LEAF_RANK	.\xlrd\formula.py	/^LEAF_RANK = 90$/;"	v
+LogHandler	.\scripts\runxlrd.py	/^    class LogHandler(object):$/;"	c
+MMAP_AVAILABLE	.\xlrd\__init__.py	/^    MMAP_AVAILABLE = 0$/;"	v
+MMAP_AVAILABLE	.\xlrd\__init__.py	/^    MMAP_AVAILABLE = 1$/;"	v
+MMAP_AVAILABLE	.\xlrd\book.py	/^    MMAP_AVAILABLE = 0$/;"	v
+MMAP_AVAILABLE	.\xlrd\book.py	/^    MMAP_AVAILABLE = 1$/;"	v
+MSATSID	.\xlrd\compdoc.py	/^MSATSID = -4$/;"	v
+MSODrawing	.\xlrd\sheet.py	/^class MSODrawing(BaseObject):$/;"	c
+MSObj	.\xlrd\sheet.py	/^class MSObj(BaseObject):$/;"	c
+MSTxo	.\xlrd\sheet.py	/^class MSTxo(BaseObject):$/;"	c
+MY_EOF	.\xlrd\book.py	/^MY_EOF = 0xF00BAAA # not a 16-bit number$/;"	v
+NCOLS	.\tests\test_sheet.py	/^NCOLS = 13$/;"	v
+NROWS	.\tests\test_sheet.py	/^NROWS = 15$/;"	v
+NUMBERFORMAT	.\xlrd\biffh.py	/^NUMBERFORMAT = FNU$/;"	v
+Name	.\xlrd\book.py	/^class Name(BaseObject):$/;"	c
+Name	.\xlrd\xlsx.py	/^from .book import Book, Name$/;"	i
+Note	.\xlrd\sheet.py	/^class Note(BaseObject):$/;"	c
+Note	.\xlrd\xlsx.py	/^        from .sheet import Note$/;"	i
+OBJ_MSO_DEBUG	.\xlrd\sheet.py	/^OBJ_MSO_DEBUG = 0$/;"	v
+Operand	.\xlrd\formula.py	/^class Operand(object):$/;"	c
+PAPER	.\docs\make.bat	/^	echo.  latex      to make LaTeX files, you can set PAPER=a4 or PAPER=letter$/;"	v
+PSYCO	.\scripts\runxlrd.py	/^        PSYCO = 1$/;"	v
+PSYCO	.\scripts\runxlrd.py	/^    PSYCO = 0$/;"	v
+REPR	.\scripts\runxlrd.py	/^    from xlrd.timemachine import xrange, REPR$/;"	i
+REPR	.\xlrd\examples\xlrdnameAPIdemo.py	/^from xlrd.timemachine import REPR$/;"	i
+REPR	.\xlrd\timemachine.py	/^    REPR = ascii$/;"	v
+REPR	.\xlrd\timemachine.py	/^    REPR = repr$/;"	v
+ROW_ERR	.\tests\test_sheet.py	/^ROW_ERR = NROWS + 10$/;"	v
+Ref3D	.\xlrd\formula.py	/^class Ref3D(tuple):$/;"	c
+Rowinfo	.\xlrd\sheet.py	/^class Rowinfo(BaseObject):$/;"	c
+SATSID	.\xlrd\compdoc.py	/^SATSID = -3$/;"	v
+SHEETINDEX	.\tests\test_sheet.py	/^SHEETINDEX = 0$/;"	v
+SIGNATURE	.\xlrd\compdoc.py	/^SIGNATURE = b"\\xD0\\xCF\\x11\\xE0\\xA1\\xB1\\x1A\\xE1"$/;"	v
+SPHINXBUILD	.\docs\make.bat	/^	set SPHINXBUILD=sphinx-build$/;"	v
+STACK_ALARM_LEVEL	.\xlrd\formula.py	/^STACK_ALARM_LEVEL = 5$/;"	v
+STACK_PANIC_LEVEL	.\xlrd\formula.py	/^STACK_PANIC_LEVEL = 10$/;"	v
+SUPPORTED_VERSIONS	.\xlrd\book.py	/^SUPPORTED_VERSIONS = (80, 70, 50, 45, 40, 30, 21, 20)$/;"	v
+Sheet	.\tests\test_workbook.py	/^from xlrd.sheet import Sheet$/;"	i
+Sheet	.\xlrd\sheet.py	/^class Sheet(BaseObject):$/;"	c
+Sheet	.\xlrd\xlsx.py	/^from .sheet import Sheet$/;"	i
+StringIO	.\tests\test_biffh.py	/^    from StringIO import StringIO$/;"	i
+StringIO	.\tests\test_biffh.py	/^    from io import StringIO$/;"	i
+TOGGLE_GC	.\xlrd\book.py	/^TOGGLE_GC = 0$/;"	v
+TestCase	.\tests\test_formats.py	/^from unittest import TestCase$/;"	i
+TestCase	.\tests\test_formulas.py	/^from unittest import TestCase$/;"	i
+TestCase	.\tests\test_missing_records.py	/^from unittest import TestCase$/;"	i
+TestCase	.\tests\test_open_workbook.py	/^from unittest import TestCase$/;"	i
+TestCase	.\tests\test_sheet.py	/^from unittest import TestCase$/;"	i
+TestCase	.\tests\test_workbook.py	/^from unittest import TestCase$/;"	i
+TestCase	.\tests\test_xlsx_comments.py	/^from unittest import TestCase$/;"	i
+TestCell	.\tests\test_cell.py	/^class TestCell(unittest.TestCase):$/;"	c
+TestCellContent	.\tests\test_formats.py	/^class TestCellContent(TestCase):$/;"	c
+TestConvertToDateTime	.\tests\test_xldate_to_datetime.py	/^class TestConvertToDateTime(unittest.TestCase):$/;"	c
+TestFormulas	.\tests\test_formulas.py	/^class TestFormulas(TestCase):$/;"	c
+TestHexDump	.\tests\test_biffh.py	/^class TestHexDump(unittest.TestCase):$/;"	c
+TestMergedCells	.\tests\test_sheet.py	/^class TestMergedCells(TestCase):$/;"	c
+TestMissingRecords	.\tests\test_missing_records.py	/^class TestMissingRecords(TestCase):$/;"	c
+TestNameFormulas	.\tests\test_formulas.py	/^class TestNameFormulas(TestCase):$/;"	c
+TestOpen	.\tests\test_open_workbook.py	/^class TestOpen(TestCase):$/;"	c
+TestSheet	.\tests\test_sheet.py	/^class TestSheet(TestCase):$/;"	c
+TestSheetRagged	.\tests\test_sheet.py	/^class TestSheetRagged(TestCase):$/;"	c
+TestWorkbook	.\tests\test_workbook.py	/^class TestWorkbook(TestCase):$/;"	c
+TestXLDate	.\tests\test_xldate.py	/^class TestXLDate(unittest.TestCase):$/;"	c
+TestXlsxComments	.\tests\test_xlsx_comments.py	/^class TestXlsxComments(TestCase):$/;"	c
+TestXlsxParse	.\tests\test_xlsx_parse.py	/^class TestXlsxParse(unittest.TestCase):$/;"	c
+UNICODE_LITERAL	.\tests\test_cell.py	/^from xlrd.timemachine import UNICODE_LITERAL$/;"	i
+UNICODE_LITERAL	.\xlrd\timemachine.py	/^    UNICODE_LITERAL = lambda x: x$/;"	v
+UNICODE_LITERAL	.\xlrd\timemachine.py	/^    UNICODE_LITERAL = lambda x: x.decode('latin1')$/;"	v
+USE_FANCY_CD	.\xlrd\book.py	/^USE_FANCY_CD = 1$/;"	v
+USE_MMAP	.\xlrd\__init__.py	/^USE_MMAP = MMAP_AVAILABLE$/;"	v
+USE_MMAP	.\xlrd\book.py	/^USE_MMAP = MMAP_AVAILABLE$/;"	v
+U_CP	.\xlrd\xlsx.py	/^U_CP = "{http:\/\/schemas.openxmlformats.org\/package\/2006\/metadata\/core-properties}"$/;"	v
+U_DC	.\xlrd\xlsx.py	/^U_DC = "{http:\/\/purl.org\/dc\/elements\/1.1\/}"$/;"	v
+U_DCTERMS	.\xlrd\xlsx.py	/^U_DCTERMS = "{http:\/\/purl.org\/dc\/terms\/}"$/;"	v
+U_ODREL	.\xlrd\xlsx.py	/^U_ODREL = "{http:\/\/schemas.openxmlformats.org\/officeDocument\/2006\/relationships}"$/;"	v
+U_PKGREL	.\xlrd\xlsx.py	/^U_PKGREL = "{http:\/\/schemas.openxmlformats.org\/package\/2006\/relationships}"$/;"	v
+U_SSML12	.\xlrd\xlsx.py	/^U_SSML12 = "{http:\/\/schemas.openxmlformats.org\/spreadsheetml\/2006\/main}"$/;"	v
+V_TAG	.\xlrd\xlsx.py	/^V_TAG = U_SSML12 + 'v' # cell child: value$/;"	v
+X12Book	.\xlrd\__init__.py	/^from .xlsx import X12Book$/;"	i
+X12Book	.\xlrd\xlsx.py	/^class X12Book(X12General):$/;"	c
+X12General	.\xlrd\xlsx.py	/^class X12General(object):$/;"	c
+X12SST	.\xlrd\xlsx.py	/^class X12SST(X12General):$/;"	c
+X12Sheet	.\xlrd\xlsx.py	/^class X12Sheet(X12General):$/;"	c
+X12Styles	.\xlrd\xlsx.py	/^class X12Styles(X12General):$/;"	c
+X12_MAX_COLS	.\xlrd\xlsx.py	/^X12_MAX_COLS = 2 ** 14$/;"	v
+X12_MAX_ROWS	.\xlrd\xlsx.py	/^X12_MAX_ROWS = 2 ** 20$/;"	v
+XF	.\xlrd\formatting.py	/^class XF(BaseObject):$/;"	c
+XF	.\xlrd\sheet.py	/^        from .formatting import XF, XFAlignment, XFBorder, XFBackground, XFProtection$/;"	i
+XF	.\xlrd\xlsx.py	/^from .formatting import is_date_format_string, Format, XF$/;"	i
+XFAlignment	.\xlrd\formatting.py	/^class XFAlignment(BaseObject, EqNeAttrs):$/;"	c
+XFAlignment	.\xlrd\sheet.py	/^        from .formatting import XF, XFAlignment, XFBorder, XFBackground, XFProtection$/;"	i
+XFBackground	.\xlrd\formatting.py	/^class XFBackground(BaseObject, EqNeAttrs):$/;"	c
+XFBackground	.\xlrd\sheet.py	/^        from .formatting import XF, XFAlignment, XFBorder, XFBackground, XFProtection$/;"	i
+XFBorder	.\xlrd\formatting.py	/^class XFBorder(BaseObject, EqNeAttrs):$/;"	c
+XFBorder	.\xlrd\sheet.py	/^        from .formatting import XF, XFAlignment, XFBorder, XFBackground, XFProtection$/;"	i
+XFProtection	.\xlrd\formatting.py	/^class XFProtection(BaseObject, EqNeAttrs):$/;"	c
+XFProtection	.\xlrd\sheet.py	/^        from .formatting import XF, XFAlignment, XFBorder, XFBackground, XFProtection$/;"	i
+XLDateAmbiguous	.\xlrd\xldate.py	/^class XLDateAmbiguous(XLDateError):$/;"	c
+XLDateBadDatemode	.\xlrd\xldate.py	/^class XLDateBadDatemode(XLDateError):$/;"	c
+XLDateBadTuple	.\xlrd\xldate.py	/^class XLDateBadTuple(XLDateError):$/;"	c
+XLDateError	.\xlrd\__init__.py	/^from .xldate import XLDateError, xldate_as_tuple, xldate_as_datetime$/;"	i
+XLDateError	.\xlrd\xldate.py	/^class XLDateError(ValueError):$/;"	c
+XLDateNegative	.\xlrd\xldate.py	/^class XLDateNegative(XLDateError):$/;"	c
+XLDateTooLarge	.\xlrd\xldate.py	/^class XLDateTooLarge(XLDateError):$/;"	c
+XLRDError	.\xlrd\biffh.py	/^class XLRDError(Exception):$/;"	c
+XLRDError	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+XLRDError	.\xlrd\formula.py	/^    XLRDError, hex_char_dump, error_text_from_code, BaseObject$/;"	i
+XLRDError	.\xlrd\xlsx.py	/^from .biffh import error_text_from_code, XLRDError, XL_CELL_BLANK, XL_CELL_TEXT, XL_CELL_BOOLEAN, XL_CELL_ERROR$/;"	i
+XL_ARRAY	.\xlrd\biffh.py	/^XL_ARRAY  = 0x0221$/;"	v
+XL_ARRAY2	.\xlrd\biffh.py	/^XL_ARRAY2 = 0x0021$/;"	v
+XL_BLANK	.\xlrd\biffh.py	/^XL_BLANK = 0x0201$/;"	v
+XL_BLANK_B2	.\xlrd\biffh.py	/^XL_BLANK_B2 = 0x01$/;"	v
+XL_BOF	.\xlrd\biffh.py	/^XL_BOF = 0x809$/;"	v
+XL_BOOLERR	.\xlrd\biffh.py	/^XL_BOOLERR = 0x205$/;"	v
+XL_BOOLERR_B2	.\xlrd\biffh.py	/^XL_BOOLERR_B2 = 0x5$/;"	v
+XL_BOTTOMMARGIN	.\xlrd\biffh.py	/^XL_BOTTOMMARGIN = 0x29$/;"	v
+XL_BOUNDSHEET	.\xlrd\biffh.py	/^XL_BOUNDSHEET = 0x85$/;"	v
+XL_BOUNDSHEET_CHART	.\xlrd\biffh.py	/^XL_BOUNDSHEET_CHART     = 0x02$/;"	v
+XL_BOUNDSHEET_VB_MODULE	.\xlrd\biffh.py	/^XL_BOUNDSHEET_VB_MODULE = 0x06$/;"	v
+XL_BOUNDSHEET_WORKSHEET	.\xlrd\biffh.py	/^XL_BOUNDSHEET_WORKSHEET = 0x00$/;"	v
+XL_BUILTINFMTCOUNT	.\xlrd\biffh.py	/^XL_BUILTINFMTCOUNT = 0x56$/;"	v
+XL_CELL_BLANK	.\xlrd\xlsx.py	/^from .biffh import error_text_from_code, XLRDError, XL_CELL_BLANK, XL_CELL_TEXT, XL_CELL_BOOLEAN, XL_CELL_ERROR$/;"	i
+XL_CELL_BOOLEAN	.\xlrd\xlsx.py	/^from .biffh import error_text_from_code, XLRDError, XL_CELL_BLANK, XL_CELL_TEXT, XL_CELL_BOOLEAN, XL_CELL_ERROR$/;"	i
+XL_CELL_DATE	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+XL_CELL_ERROR	.\xlrd\xlsx.py	/^from .biffh import error_text_from_code, XLRDError, XL_CELL_BLANK, XL_CELL_TEXT, XL_CELL_BOOLEAN, XL_CELL_ERROR$/;"	i
+XL_CELL_NUMBER	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+XL_CELL_TEXT	.\tests\test_missing_records.py	/^from xlrd.biffh import XL_CELL_TEXT$/;"	i
+XL_CELL_TEXT	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+XL_CELL_TEXT	.\xlrd\xlsx.py	/^from .biffh import error_text_from_code, XLRDError, XL_CELL_BLANK, XL_CELL_TEXT, XL_CELL_BOOLEAN, XL_CELL_ERROR$/;"	i
+XL_CF	.\xlrd\biffh.py	/^XL_CF = 0x01B1$/;"	v
+XL_CODEPAGE	.\xlrd\biffh.py	/^XL_CODEPAGE = 0x42$/;"	v
+XL_COLINFO	.\xlrd\biffh.py	/^XL_COLINFO = 0x7D$/;"	v
+XL_COLUMNDEFAULT	.\xlrd\biffh.py	/^XL_COLUMNDEFAULT = 0x20 # BIFF2 only$/;"	v
+XL_COLWIDTH	.\xlrd\biffh.py	/^XL_COLWIDTH = 0x24 # BIFF2 only$/;"	v
+XL_CONDFMT	.\xlrd\biffh.py	/^XL_CONDFMT = 0x01B0$/;"	v
+XL_CONTINUE	.\xlrd\biffh.py	/^XL_CONTINUE = 0x3c$/;"	v
+XL_COUNTRY	.\xlrd\biffh.py	/^XL_COUNTRY = 0x8C$/;"	v
+XL_DATEMODE	.\xlrd\biffh.py	/^XL_DATEMODE = 0x22$/;"	v
+XL_DEFAULTROWHEIGHT	.\xlrd\biffh.py	/^XL_DEFAULTROWHEIGHT = 0x0225$/;"	v
+XL_DEFCOLWIDTH	.\xlrd\biffh.py	/^XL_DEFCOLWIDTH = 0x55$/;"	v
+XL_DIMENSION	.\xlrd\biffh.py	/^XL_DIMENSION = 0x200$/;"	v
+XL_DIMENSION2	.\xlrd\biffh.py	/^XL_DIMENSION2 = 0x0$/;"	v
+XL_EFONT	.\xlrd\biffh.py	/^XL_EFONT = 0x45$/;"	v
+XL_EOF	.\xlrd\biffh.py	/^XL_EOF = 0x0a$/;"	v
+XL_EXTERNNAME	.\xlrd\biffh.py	/^XL_EXTERNNAME = 0x23$/;"	v
+XL_EXTERNSHEET	.\xlrd\biffh.py	/^XL_EXTERNSHEET = 0x17$/;"	v
+XL_EXTSST	.\xlrd\biffh.py	/^XL_EXTSST = 0xff$/;"	v
+XL_FEAT11	.\xlrd\biffh.py	/^XL_FEAT11 = 0x872$/;"	v
+XL_FILEPASS	.\xlrd\biffh.py	/^XL_FILEPASS = 0x2f$/;"	v
+XL_FONT	.\xlrd\biffh.py	/^XL_FONT = 0x31$/;"	v
+XL_FONT_B3B4	.\xlrd\biffh.py	/^XL_FONT_B3B4 = 0x231$/;"	v
+XL_FOOTER	.\xlrd\biffh.py	/^XL_FOOTER = 0x15$/;"	v
+XL_FORMAT	.\xlrd\biffh.py	/^XL_FORMAT = 0x41e$/;"	v
+XL_FORMAT	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+XL_FORMAT2	.\xlrd\biffh.py	/^XL_FORMAT2 = 0x1E # BIFF2, BIFF3$/;"	v
+XL_FORMAT2	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+XL_FORMULA	.\xlrd\biffh.py	/^XL_FORMULA = 0x6$/;"	v
+XL_FORMULA3	.\xlrd\biffh.py	/^XL_FORMULA3 = 0x206$/;"	v
+XL_FORMULA4	.\xlrd\biffh.py	/^XL_FORMULA4 = 0x406$/;"	v
+XL_FORMULA_OPCODES	.\xlrd\biffh.py	/^XL_FORMULA_OPCODES = (0x0006, 0x0406, 0x0206)$/;"	v
+XL_GCW	.\xlrd\biffh.py	/^XL_GCW = 0xab$/;"	v
+XL_HCENTER	.\xlrd\biffh.py	/^XL_HCENTER = 0x83$/;"	v
+XL_HEADER	.\xlrd\biffh.py	/^XL_HEADER = 0x14$/;"	v
+XL_HLINK	.\xlrd\biffh.py	/^XL_HLINK = 0x01B8$/;"	v
+XL_HORIZONTALPAGEBREAKS	.\xlrd\biffh.py	/^XL_HORIZONTALPAGEBREAKS = 0x1b$/;"	v
+XL_INDEX	.\xlrd\biffh.py	/^XL_INDEX = 0x20b$/;"	v
+XL_INTEGER	.\xlrd\biffh.py	/^XL_INTEGER = 0x2 # BIFF2 only$/;"	v
+XL_IXFE	.\xlrd\biffh.py	/^XL_IXFE = 0x44 # BIFF2 only$/;"	v
+XL_LABEL	.\xlrd\biffh.py	/^XL_LABEL = 0x204$/;"	v
+XL_LABELRANGES	.\xlrd\biffh.py	/^XL_LABELRANGES = 0x15f$/;"	v
+XL_LABELSST	.\xlrd\biffh.py	/^XL_LABELSST = 0xfd$/;"	v
+XL_LABEL_B2	.\xlrd\biffh.py	/^XL_LABEL_B2 = 0x04$/;"	v
+XL_LEFTMARGIN	.\xlrd\biffh.py	/^XL_LEFTMARGIN = 0x26$/;"	v
+XL_MERGEDCELLS	.\xlrd\biffh.py	/^XL_MERGEDCELLS = 0xE5$/;"	v
+XL_MSO_DRAWING	.\xlrd\biffh.py	/^XL_MSO_DRAWING = 0x00EC$/;"	v
+XL_MSO_DRAWING_GROUP	.\xlrd\biffh.py	/^XL_MSO_DRAWING_GROUP = 0x00EB$/;"	v
+XL_MSO_DRAWING_SELECTION	.\xlrd\biffh.py	/^XL_MSO_DRAWING_SELECTION = 0x00ED$/;"	v
+XL_MULBLANK	.\xlrd\biffh.py	/^XL_MULBLANK = 0xbe$/;"	v
+XL_MULRK	.\xlrd\biffh.py	/^XL_MULRK = 0xbd$/;"	v
+XL_NAME	.\xlrd\biffh.py	/^XL_NAME = 0x18$/;"	v
+XL_NOTE	.\xlrd\biffh.py	/^XL_NOTE = 0x1c$/;"	v
+XL_NUMBER	.\xlrd\biffh.py	/^XL_NUMBER = 0x203$/;"	v
+XL_NUMBER_B2	.\xlrd\biffh.py	/^XL_NUMBER_B2 = 0x3$/;"	v
+XL_OBJ	.\xlrd\biffh.py	/^XL_OBJ = 0x5D$/;"	v
+XL_PAGESETUP	.\xlrd\biffh.py	/^XL_PAGESETUP = 0xA1$/;"	v
+XL_PALETTE	.\xlrd\biffh.py	/^XL_PALETTE = 0x92$/;"	v
+XL_PANE	.\xlrd\biffh.py	/^XL_PANE = 0x41$/;"	v
+XL_PRINTGRIDLINES	.\xlrd\biffh.py	/^XL_PRINTGRIDLINES = 0x2B$/;"	v
+XL_PRINTHEADERS	.\xlrd\biffh.py	/^XL_PRINTHEADERS = 0x2A$/;"	v
+XL_QUICKTIP	.\xlrd\biffh.py	/^XL_QUICKTIP = 0x0800$/;"	v
+XL_RIGHTMARGIN	.\xlrd\biffh.py	/^XL_RIGHTMARGIN = 0x27$/;"	v
+XL_RK	.\xlrd\biffh.py	/^XL_RK = 0x27e$/;"	v
+XL_ROW	.\xlrd\biffh.py	/^XL_ROW = 0x208$/;"	v
+XL_ROW_B2	.\xlrd\biffh.py	/^XL_ROW_B2 = 0x08$/;"	v
+XL_RSTRING	.\xlrd\biffh.py	/^XL_RSTRING = 0xd6$/;"	v
+XL_SCL	.\xlrd\biffh.py	/^XL_SCL = 0x00A0$/;"	v
+XL_SHEETHDR	.\xlrd\biffh.py	/^XL_SHEETHDR = 0x8F # BIFF4W only$/;"	v
+XL_SHEETPR	.\xlrd\biffh.py	/^XL_SHEETPR = 0x81$/;"	v
+XL_SHEETSOFFSET	.\xlrd\biffh.py	/^XL_SHEETSOFFSET = 0x8E # BIFF4W only$/;"	v
+XL_SHRFMLA	.\xlrd\biffh.py	/^XL_SHRFMLA = 0x04bc$/;"	v
+XL_SST	.\xlrd\biffh.py	/^XL_SST = 0xfc$/;"	v
+XL_STANDARDWIDTH	.\xlrd\biffh.py	/^XL_STANDARDWIDTH = 0x99$/;"	v
+XL_STRING	.\xlrd\biffh.py	/^XL_STRING = 0x207$/;"	v
+XL_STRING_B2	.\xlrd\biffh.py	/^XL_STRING_B2 = 0x7$/;"	v
+XL_STYLE	.\xlrd\biffh.py	/^XL_STYLE = 0x293$/;"	v
+XL_SUPBOOK	.\xlrd\biffh.py	/^XL_SUPBOOK = 0x1AE # aka EXTERNALBOOK in OOo docs$/;"	v
+XL_TABLEOP	.\xlrd\biffh.py	/^XL_TABLEOP = 0x236$/;"	v
+XL_TABLEOP2	.\xlrd\biffh.py	/^XL_TABLEOP2 = 0x37$/;"	v
+XL_TABLEOP_B2	.\xlrd\biffh.py	/^XL_TABLEOP_B2 = 0x36$/;"	v
+XL_TOPMARGIN	.\xlrd\biffh.py	/^XL_TOPMARGIN = 0x28$/;"	v
+XL_TXO	.\xlrd\biffh.py	/^XL_TXO = 0x1b6$/;"	v
+XL_UNCALCED	.\xlrd\biffh.py	/^XL_UNCALCED = 0x5e$/;"	v
+XL_UNKNOWN	.\xlrd\biffh.py	/^XL_UNKNOWN = 0xffff$/;"	v
+XL_VCENTER	.\xlrd\biffh.py	/^XL_VCENTER = 0x84$/;"	v
+XL_VERTICALPAGEBREAKS	.\xlrd\biffh.py	/^XL_VERTICALPAGEBREAKS = 0x1a$/;"	v
+XL_WINDOW2	.\xlrd\biffh.py	/^XL_WINDOW2    = 0x023E$/;"	v
+XL_WINDOW2_B2	.\xlrd\biffh.py	/^XL_WINDOW2_B2 = 0x003E$/;"	v
+XL_WORKBOOK_GLOBALS_4W	.\xlrd\biffh.py	/^XL_WORKBOOK_GLOBALS_4W = 0x100$/;"	v
+XL_WRITEACCESS	.\xlrd\biffh.py	/^XL_WRITEACCESS = 0x5C$/;"	v
+XL_WSBOOL	.\xlrd\biffh.py	/^XL_WSBOOL = XL_SHEETPR$/;"	v
+XL_XF	.\xlrd\biffh.py	/^XL_XF = 0xe0$/;"	v
+XL_XF2	.\xlrd\biffh.py	/^XL_XF2 = 0x0043 # BIFF2 version of XF record$/;"	v
+XL_XF3	.\xlrd\biffh.py	/^XL_XF3 = 0x0243 # BIFF3 version of XF record$/;"	v
+XL_XF4	.\xlrd\biffh.py	/^XL_XF4 = 0x0443 # BIFF4 version of XF record$/;"	v
+XML_SPACE_ATTR	.\xlrd\xlsx.py	/^XML_SPACE_ATTR = "{http:\/\/www.w3.org\/XML\/1998\/namespace}space"$/;"	v
+XML_WHITESPACE	.\xlrd\xlsx.py	/^XML_WHITESPACE = "\\t\\n \\r"$/;"	v
+_JDN_delta	.\xlrd\xldate.py	/^_JDN_delta = (2415080 - 61, 2416482 - 1)$/;"	v
+_TOKEN_NOT_ALLOWED	.\xlrd\formula.py	/^_TOKEN_NOT_ALLOWED = {$/;"	v
+_UPPERCASE_1_REL_INDEX	.\xlrd\xlsx.py	/^_UPPERCASE_1_REL_INDEX = {} # Used in fast conversion of column names (e.g. "XFD") to indices (16383)$/;"	v
+_USE_SLOTS	.\xlrd\sheet.py	/^_USE_SLOTS = 1$/;"	v
+_WINDOW2_options	.\xlrd\sheet.py	/^_WINDOW2_options = ($/;"	v
+_XLDAYS_TOO_LARGE	.\xlrd\xldate.py	/^_XLDAYS_TOO_LARGE = (2958466, 2958466 - 1462)$/;"	v
+__VERSION__	.\setup.py	/^from xlrd.info import __VERSION__$/;"	i
+__VERSION__	.\xlrd\__init__.py	/^from .info import __VERSION__$/;"	i
+__VERSION__	.\xlrd\info.py	/^__VERSION__ = "1.0.0"$/;"	v
+__all__	.\xlrd\__init__.py	/^from .formula import * # is constrained by __all__$/;"	i
+__all__	.\xlrd\formula.py	/^__all__ = [$/;"	v
+__enter__	.\xlrd\book.py	/^    def __enter__(self):$/;"	m	class:Book	file:
+__eq__	.\xlrd\formatting.py	/^    def __eq__(self, other):$/;"	m	class:EqNeAttrs	file:
+__exit__	.\xlrd\book.py	/^    def __exit__(self, exc_type, exc_value, exc_tb):$/;"	m	class:Book	file:
+__getstate__	.\xlrd\sheet.py	/^    def __getstate__(self):$/;"	m	class:Rowinfo	file:
+__init__	.\scripts\runxlrd.py	/^        def __init__(self, logfileobj):$/;"	m	class:LogHandler
+__init__	.\xlrd\book.py	/^    def __init__(self):$/;"	m	class:Book
+__init__	.\xlrd\compdoc.py	/^    def __init__(self, DID, dent, DEBUG=0, logfile=sys.stdout):$/;"	m	class:DirNode
+__init__	.\xlrd\compdoc.py	/^    def __init__(self, mem, logfile=sys.stdout, DEBUG=0):$/;"	m	class:CompDoc
+__init__	.\xlrd\formatting.py	/^    def __init__(self, format_key, ty, format_str):$/;"	m	class:Format
+__init__	.\xlrd\formula.py	/^    def __init__(self, akind=None, avalue=None, arank=0, atext='?'):$/;"	m	class:Operand
+__init__	.\xlrd\formula.py	/^    def __init__(self, atuple):$/;"	m	class:Ref3D
+__init__	.\xlrd\sheet.py	/^    def __init__(self):$/;"	m	class:Rowinfo
+__init__	.\xlrd\sheet.py	/^    def __init__(self, book, position, name, number):$/;"	m	class:Sheet
+__init__	.\xlrd\sheet.py	/^    def __init__(self, ctype, value, xf_index=None):$/;"	m	class:Cell
+__init__	.\xlrd\xlsx.py	/^    def __init__(self, bk, logfile=DLF, verbosity=0):$/;"	m	class:X12SST
+__init__	.\xlrd\xlsx.py	/^    def __init__(self, bk, logfile=DLF, verbosity=0):$/;"	m	class:X12Styles
+__init__	.\xlrd\xlsx.py	/^    def __init__(self, bk, logfile=DLF, verbosity=False):$/;"	m	class:X12Book
+__init__	.\xlrd\xlsx.py	/^    def __init__(self, sheet, logfile=DLF, verbosity=0):$/;"	m	class:X12Sheet
+__ne__	.\xlrd\formatting.py	/^    def __ne__(self, other):$/;"	m	class:EqNeAttrs	file:
+__repr__	.\xlrd\formula.py	/^    def __repr__(self):$/;"	m	class:Operand	file:
+__repr__	.\xlrd\formula.py	/^    def __repr__(self):$/;"	m	class:Ref3D	file:
+__repr__	.\xlrd\sheet.py	/^    def __repr__(self):$/;"	m	class:Cell	file:
+__setstate__	.\xlrd\sheet.py	/^    def __setstate__(self, state):$/;"	m	class:Rowinfo	file:
+__slots__	.\xlrd\sheet.py	/^        __slots__ = ($/;"	v	class:Rowinfo
+__slots__	.\xlrd\sheet.py	/^    __slots__ = ['ctype', 'value', 'xf_index']$/;"	v	class:Cell
+_alignment_flag	.\xlrd\formatting.py	/^    _alignment_flag = 0$/;"	v	class:XF
+_arith_argdict	.\xlrd\formula.py	/^_arith_argdict = {oNUM: nop,     oSTRG: float}$/;"	v
+_background_flag	.\xlrd\formatting.py	/^    _background_flag = 0$/;"	v	class:XF
+_bic	.\xlrd\book.py	/^    _bic = UNICODE_LITERAL(_bic)$/;"	v
+_bin	.\xlrd\book.py	/^    _bin = UNICODE_LITERAL(_bin)$/;"	v
+_border_flag	.\xlrd\formatting.py	/^    _border_flag = 0$/;"	v	class:XF
+_build_family_tree	.\xlrd\compdoc.py	/^def _build_family_tree(dirlist, parent_DID, child_DID):$/;"	f
+_cell_opcode_dict	.\xlrd\biffh.py	/^_cell_opcode_dict = {}$/;"	v
+_cell_opcode_list	.\xlrd\biffh.py	/^_cell_opcode_list = [$/;"	v
+_cellty_from_fmtty	.\xlrd\formatting.py	/^_cellty_from_fmtty = {$/;"	v
+_cmp_argdict	.\xlrd\formula.py	/^_cmp_argdict =   {oNUM: nop,     oSTRG: nop}$/;"	v
+_code_from_builtin_name	.\xlrd\book.py	/^_code_from_builtin_name = {$/;"	v
+_days_in_month	.\xlrd\xldate.py	/^_days_in_month = (None, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)$/;"	v
+_defined_name_attribute_map	.\xlrd\xlsx.py	/^_defined_name_attribute_map = ($/;"	v
+_dir_search	.\xlrd\compdoc.py	/^    def _dir_search(self, path, storage_DID=0):$/;"	m	class:CompDoc
+_dump_line	.\xlrd\compdoc.py	/^    def _dump_line(dpos, equal=0):$/;"	f	function:dump_list
+_font_flag	.\xlrd\formatting.py	/^    _font_flag = 0$/;"	v	class:XF
+_format_flag	.\xlrd\formatting.py	/^    _format_flag = 0$/;"	v	class:XF
+_get_stream	.\xlrd\compdoc.py	/^    def _get_stream(self, mem, base, sat, sec_size, start_sid, size=None, name='', seen_id=None):$/;"	m	class:CompDoc
+_leap	.\xlrd\xldate.py	/^def _leap(y):$/;"	f
+_locate_stream	.\xlrd\compdoc.py	/^    def _locate_stream(self, mem, base, sat, sec_size, start_sid, expected_stream_size, qname, seen_id):$/;"	m	class:CompDoc
+_opr_eq	.\xlrd\formula.py	/^def _opr_eq(x, y): return x == y$/;"	f
+_opr_ge	.\xlrd\formula.py	/^def _opr_ge(x, y): return x >= y$/;"	f
+_opr_gt	.\xlrd\formula.py	/^def _opr_gt(x, y): return x >  y$/;"	f
+_opr_le	.\xlrd\formula.py	/^def _opr_le(x, y): return x <= y$/;"	f
+_opr_lt	.\xlrd\formula.py	/^def _opr_lt(x, y): return x <  y$/;"	f
+_opr_ne	.\xlrd\formula.py	/^def _opr_ne(x, y): return x != y$/;"	f
+_opr_pow	.\xlrd\formula.py	/^def _opr_pow(x, y): return x ** y$/;"	f
+_protection_flag	.\xlrd\formatting.py	/^    _protection_flag = 0$/;"	v	class:XF
+_repr_these	.\xlrd\biffh.py	/^    _repr_these = []$/;"	v	class:BaseObject
+_repr_these	.\xlrd\book.py	/^    _repr_these = ['stack']$/;"	v	class:Name
+_strg_argdict	.\xlrd\formula.py	/^_strg_argdict =  {oNUM:num2strg, oSTRG:nop}$/;"	v
+adjust_cell_addr_biff8	.\xlrd\formula.py	/^def adjust_cell_addr_biff8(rowval, colval, reldelta, browx=None, bcolx=None):$/;"	f
+adjust_cell_addr_biff_le7	.\xlrd\formula.py	/^def adjust_cell_addr_biff_le7($/;"	f
+alignment	.\xlrd\formatting.py	/^    alignment = None$/;"	v	class:XF
+an	.\xlrd\xlsx.py	/^                            raise Exception("Failed to import an ElementTree implementation")$/;"	i
+area2d	.\xlrd\book.py	/^    def area2d(self, clipped=True):$/;"	m	class:Name
+arg_name	.\xlrd\examples\xlrdnameAPIdemo.py	/^    arg_name = sys.argv[2]    # see below$/;"	v
+arg_pattern	.\xlrd\examples\xlrdnameAPIdemo.py	/^    arg_pattern = sys.argv[1] # glob pattern e.g. "foo*.xls"$/;"	v
+arg_scope	.\xlrd\examples\xlrdnameAPIdemo.py	/^    arg_scope = sys.argv[3]   # see below$/;"	v
+arg_show_contents	.\xlrd\examples\xlrdnameAPIdemo.py	/^    arg_show_contents = int(sys.argv[4]) # 0: no show, 1: only non-empty cells,$/;"	v
+array	.\xlrd\compdoc.py	/^import array$/;"	i
+array	.\xlrd\sheet.py	/^from array import array$/;"	i
+ascii	.\tests\test_formulas.py	/^    def ascii(s):$/;"	f
+augment_keys	.\xlrd\xlsx.py	/^def augment_keys(adict, uri):$/;"	f
+author	.\setup.py	/^    author = 'John Machin',$/;"	v
+author	.\xlrd\sheet.py	/^    author = UNICODE_LITERAL('')$/;"	v	class:Note
+author_email	.\setup.py	/^    author_email = 'sjmachin@lexicon.net',$/;"	v
+autodoc_member_order	.\docs\conf.py	/^autodoc_member_order = 'bysource'$/;"	v
+av	.\scripts\runxlrd.py	/^        av = av[1:]$/;"	v
+av	.\scripts\runxlrd.py	/^    av = sys.argv[1:]$/;"	v
+background	.\xlrd\formatting.py	/^    background = None$/;"	v	class:XF
+background_colour_index	.\xlrd\formatting.py	/^    background_colour_index = 0$/;"	v	class:XFBackground
+bad_child_tag	.\xlrd\xlsx.py	/^        def bad_child_tag(child_tag):$/;"	f	function:X12Sheet.do_row
+biff2_8_load	.\xlrd\book.py	/^    def biff2_8_load(self, filename=None, file_contents=None,$/;"	m	class:Book
+biff_count_records	.\xlrd\__init__.py	/^    from .biffh import biff_count_records$/;"	i
+biff_count_records	.\xlrd\biffh.py	/^def biff_count_records(mem, stream_offset, stream_len, fout=sys.stdout):$/;"	f
+biff_dump	.\xlrd\__init__.py	/^    from .biffh import biff_dump$/;"	i
+biff_dump	.\xlrd\biffh.py	/^def biff_dump(mem, stream_offset, stream_len, base=0, fout=sys.stdout, unnumbered=False):$/;"	f
+biff_rec_name_dict	.\xlrd\biffh.py	/^biff_rec_name_dict = {}$/;"	v
+biff_text_from_num	.\xlrd\biffh.py	/^biff_text_from_num = {$/;"	v
+biff_version	.\xlrd\book.py	/^    biff_version = 0$/;"	v	class:Book
+biffh	.\tests\test_biffh.py	/^from xlrd import biffh$/;"	i
+binary	.\xlrd\book.py	/^    binary = 0$/;"	v	class:Name
+binop_rules	.\xlrd\formula.py	/^binop_rules = {$/;"	v
+bit1_flag	.\xlrd\sheet.py	/^    bit1_flag = 0$/;"	v	class:Colinfo
+bk_header	.\scripts\runxlrd.py	/^    def bk_header(bk):$/;"	f
+bof_error	.\xlrd\book.py	/^        def bof_error(msg):$/;"	f	function:Book.getbof
+bofcodes	.\xlrd\biffh.py	/^bofcodes = (0x0809, 0x0409, 0x0209, 0x0009)$/;"	v
+boflen	.\xlrd\biffh.py	/^boflen = {0x0809: 8, 0x0409: 6, 0x0209: 6, 0x0009: 4}$/;"	v
+bold	.\xlrd\formatting.py	/^    bold = 0$/;"	v	class:Font
+book	.\xlrd\__init__.py	/^    from . import book$/;"	i
+book	.\xlrd\book.py	/^    book = None # parent$/;"	v	class:Name
+book	.\xlrd\sheet.py	/^    book = None$/;"	v	class:Sheet
+border	.\xlrd\formatting.py	/^    border = None$/;"	v	class:XF
+bottom_colour_index	.\xlrd\formatting.py	/^    bottom_colour_index = 0$/;"	v	class:XFBorder
+bottom_line_style	.\xlrd\formatting.py	/^    bottom_line_style = 0$/;"	v	class:XFBorder
+built_in_style_names	.\xlrd\formatting.py	/^built_in_style_names = [$/;"	v
+builtin	.\xlrd\book.py	/^    builtin = 0$/;"	v	class:Name
+builtin_name_from_code	.\xlrd\book.py	/^builtin_name_from_code = {}$/;"	v
+by	.\xlrd\__init__.py	/^from .formula import * # is constrained by __all__$/;"	i
+cProfile	.\scripts\runxlrd.py	/^        import cProfile$/;"	i
+calcsize	.\xlrd\sheet.py	/^from struct import unpack, calcsize$/;"	i
+cell	.\xlrd\book.py	/^    def cell(self):$/;"	m	class:Name
+cell	.\xlrd\sheet.py	/^    def cell(self, rowx, colx):$/;"	m	class:Sheet
+cell_locked	.\xlrd\formatting.py	/^    cell_locked = 0$/;"	v	class:XFProtection
+cell_name_to_rowx_colx	.\xlrd\xlsx.py	/^def cell_name_to_rowx_colx(cell_name, letter_value=_UPPERCASE_1_REL_INDEX,$/;"	f
+cell_note_map	.\xlrd\sheet.py	/^    cell_note_map = {}$/;"	v	class:Sheet
+cell_type	.\xlrd\sheet.py	/^    def cell_type(self, rowx, colx):$/;"	m	class:Sheet
+cell_value	.\xlrd\sheet.py	/^    def cell_value(self, rowx, colx):$/;"	m	class:Sheet
+cell_xf_index	.\xlrd\sheet.py	/^    def cell_xf_index(self, rowx, colx):$/;"	m	class:Sheet
+cellname	.\xlrd\formula.py	/^def cellname(rowx, colx):$/;"	f
+cellnameabs	.\xlrd\formula.py	/^def cellnameabs(rowx, colx, r1c1=0):$/;"	f
+cellnamerel	.\xlrd\formula.py	/^def cellnamerel(rowx, colx, rowxrel, colxrel, browx=None, bcolx=None, r1c1=0):$/;"	f
+cellty_from_fmtty	.\xlrd\sheet.py	/^cellty_from_fmtty = {$/;"	v
+character_set	.\xlrd\formatting.py	/^    character_set = 0$/;"	v	class:Font
+check_col_slice	.\tests\test_sheet.py	/^    def check_col_slice(self, col_function):$/;"	m	class:TestSheet
+check_colour_indexes_in_obj	.\xlrd\formatting.py	/^def check_colour_indexes_in_obj(book, obj, orig_index):$/;"	f
+check_row_slice	.\tests\test_sheet.py	/^    def check_row_slice(self, row_function):$/;"	m	class:TestSheet
+check_same	.\xlrd\formatting.py	/^    def check_same(book_arg, xf_arg, parent_arg, attr):$/;"	f	function:xf_epilogue
+check_sheet_function	.\tests\test_sheet.py	/^    def check_sheet_function(self, function):$/;"	m	class:TestSheet
+check_sheet_function_index_error	.\tests\test_sheet.py	/^    def check_sheet_function_index_error(self, function):$/;"	m	class:TestSheet
+classifiers	.\setup.py	/^    classifiers = [$/;"	v
+cnv_ST_Xstring	.\xlrd\xlsx.py	/^def cnv_ST_Xstring(s):$/;"	f
+cnv_xsd_boolean	.\xlrd\xlsx.py	/^def cnv_xsd_boolean(s):$/;"	f
+cnv_xsd_unsignedInt	.\xlrd\xlsx.py	/^def cnv_xsd_unsignedInt(s):$/;"	f
+code_from_builtin_name	.\xlrd\book.py	/^code_from_builtin_name = {}$/;"	v
+codepage	.\xlrd\book.py	/^    codepage = None$/;"	v	class:Book
+col	.\xlrd\sheet.py	/^    col = col_slice$/;"	v	class:Sheet
+col_hidden	.\xlrd\sheet.py	/^    col_hidden = 0$/;"	v	class:Note
+col_label_ranges	.\xlrd\sheet.py	/^    col_label_ranges = []$/;"	v	class:Sheet
+col_slice	.\xlrd\sheet.py	/^    def col_slice(self, colx, start_rowx=0, end_rowx=None):$/;"	m	class:Sheet
+col_types	.\xlrd\sheet.py	/^    def col_types(self, colx, start_rowx=0, end_rowx=None):$/;"	m	class:Sheet
+col_values	.\xlrd\sheet.py	/^    def col_values(self, colx, start_rowx=0, end_rowx=None):$/;"	m	class:Sheet
+colinfo_map	.\xlrd\sheet.py	/^    colinfo_map = {}$/;"	v	class:Sheet
+collapsed	.\xlrd\sheet.py	/^    collapsed = 0$/;"	v	class:Colinfo
+colname	.\xlrd\__init__.py	/^from .book import Book, colname$/;"	i
+colname	.\xlrd\book.py	/^def colname(colx, _A2Z="ABCDEFGHIJKLMNOPQRSTUVWXYZ"):$/;"	f
+colname	.\xlrd\formula.py	/^def colname(colx):$/;"	f
+colnamerel	.\xlrd\formula.py	/^def colnamerel(colx, colxrel, bcolx=None, r1c1=0):$/;"	f
+colour_index	.\xlrd\formatting.py	/^    colour_index = 0$/;"	v	class:Font
+colour_map	.\xlrd\book.py	/^    colour_map = {}$/;"	v	class:Book
+colx	.\xlrd\sheet.py	/^    colx = 0$/;"	v	class:Note
+compdoc	.\xlrd\book.py	/^from . import compdoc$/;"	i
+complex	.\xlrd\book.py	/^    complex = 0$/;"	v	class:Name
+computed_column_width	.\xlrd\sheet.py	/^    def computed_column_width(self, colx):$/;"	m	class:Sheet
+constrained	.\xlrd\__init__.py	/^from .formula import * # is constrained by __all__$/;"	i
+convert_filename	.\xlrd\xlsx.py	/^    def convert_filename(name):$/;"	m	class:X12Book
+cooked_text	.\xlrd\xlsx.py	/^def cooked_text(self, elem):$/;"	f
+copy	.\xlrd\formula.py	/^import copy$/;"	i
+copyright	.\docs\conf.py	/^copyright = '2005-%s Stephen John Machin, Lingfo Pty Ltd' % datetime.datetime.now().year$/;"	v
+core_props_menu	.\xlrd\xlsx.py	/^    core_props_menu = {$/;"	v	class:X12Book
+count_records	.\xlrd\__init__.py	/^def count_records(filename, outfile=sys.stdout):$/;"	f
+count_xfs	.\scripts\runxlrd.py	/^    def count_xfs(bk):$/;"	f
+countries	.\xlrd\book.py	/^    countries = (0, 0)$/;"	v	class:Book
+ctype_text	.\xlrd\sheet.py	/^ctype_text = {$/;"	v
+date_char_dict	.\xlrd\formatting.py	/^date_char_dict = {}$/;"	v
+date_chars	.\xlrd\formatting.py	/^date_chars = UNICODE_LITERAL('ymdhs') # year, month\/minute, day, hour, second$/;"	v
+datemode	.\xlrd\book.py	/^    datemode = 0$/;"	v	class:Book
+datetime	.\docs\conf.py	/^import datetime$/;"	i
+datetime	.\tests\test_xldate_to_datetime.py	/^from datetime import datetime$/;"	i
+datetime	.\xlrd\xldate.py	/^import datetime$/;"	i
+decompile_formula	.\xlrd\formula.py	/^def decompile_formula(bk, fmla, fmlalen,$/;"	f
+decompile_formula	.\xlrd\sheet.py	/^from .formula import dump_formula, decompile_formula, rangename2d, FMLA_TYPE_CELL, FMLA_TYPE_SHARED$/;"	i
+default_additional_space_above	.\xlrd\sheet.py	/^    default_additional_space_above = None$/;"	v	class:Sheet
+default_additional_space_below	.\xlrd\sheet.py	/^    default_additional_space_below = None$/;"	v	class:Sheet
+default_palette	.\xlrd\formatting.py	/^default_palette = {$/;"	v
+default_row_height	.\xlrd\sheet.py	/^    default_row_height = None$/;"	v	class:Sheet
+default_row_height_mismatch	.\xlrd\sheet.py	/^    default_row_height_mismatch = None$/;"	v	class:Sheet
+default_row_hidden	.\xlrd\sheet.py	/^    default_row_hidden = None$/;"	v	class:Sheet
+defcolwidth	.\xlrd\sheet.py	/^    defcolwidth = None$/;"	v	class:Sheet
+derive_encoding	.\xlrd\book.py	/^    def derive_encoding(self):$/;"	m	class:Book
+desc	.\xlrd\sheet.py	/^    desc = None$/;"	v	class:Hyperlink
+description	.\setup.py	/^    description = ($/;"	v
+diag_colour_index	.\xlrd\formatting.py	/^    diag_colour_index = 0$/;"	v	class:XFBorder
+diag_down	.\xlrd\formatting.py	/^    diag_down = 0$/;"	v	class:XFBorder
+diag_line_style	.\xlrd\formatting.py	/^    diag_line_style = 0$/;"	v	class:XFBorder
+diag_up	.\xlrd\formatting.py	/^    diag_up = 0$/;"	v	class:XFBorder
+display_cell_address	.\xlrd\book.py	/^def display_cell_address(rowx, colx, relrow, relcol):$/;"	f
+do_binop	.\xlrd\formula.py	/^    def do_binop(opcd, stk):$/;"	f	function:decompile_formula
+do_binop	.\xlrd\formula.py	/^    def do_binop(opcd, stk):$/;"	f	function:evaluate_name_formula
+do_box_funcs	.\xlrd\formula.py	/^def do_box_funcs(box_funcs, boxa, boxb):$/;"	f
+do_cellstylexfs	.\xlrd\xlsx.py	/^    def do_cellstylexfs(self, elem):$/;"	m	class:X12Styles
+do_cellxfs	.\xlrd\xlsx.py	/^    def do_cellxfs(self, elem):$/;"	m	class:X12Styles
+do_defined_name	.\xlrd\xlsx.py	/^    def do_defined_name(self, elem):$/;"	m	class:X12Book
+do_defined_names	.\xlrd\xlsx.py	/^    def do_defined_names(self, elem):$/;"	m	class:X12Book
+do_dimension	.\xlrd\xlsx.py	/^    def do_dimension(self, elem):$/;"	m	class:X12Sheet
+do_merge_cell	.\xlrd\xlsx.py	/^    def do_merge_cell(self, elem):$/;"	m	class:X12Sheet
+do_numfmt	.\xlrd\xlsx.py	/^    def do_numfmt(self, elem):$/;"	m	class:X12Styles
+do_row	.\xlrd\xlsx.py	/^    def do_row(self, row_elem):$/;"	m	class:X12Sheet
+do_scope_query	.\xlrd\examples\xlrdnameAPIdemo.py	/^def do_scope_query(book, scope_strg, show_contents=0, f=sys.stdout):$/;"	f
+do_sheet	.\xlrd\xlsx.py	/^    def do_sheet(self, elem):$/;"	m	class:X12Book
+do_unaryop	.\xlrd\formula.py	/^    def do_unaryop(opcode, result_kind, stk):$/;"	f	function:decompile_formula
+do_unaryop	.\xlrd\formula.py	/^    def do_unaryop(opcode, result_kind, stk):$/;"	f	function:evaluate_name_formula
+do_workbookpr	.\xlrd\xlsx.py	/^    def do_workbookpr(self, elem):$/;"	m	class:X12Book
+do_xf	.\xlrd\xlsx.py	/^    def do_xf(self, elem):$/;"	m	class:X12Styles
+dump	.\xlrd\__init__.py	/^def dump(filename, outfile=sys.stdout, unnumbered=False):$/;"	f
+dump	.\xlrd\biffh.py	/^    def dump(self, f=None, header=None, footer=None, indent=0):$/;"	m	class:BaseObject
+dump	.\xlrd\compdoc.py	/^    def dump(self, DEBUG=1):$/;"	m	class:DirNode
+dump_elem	.\xlrd\xlsx.py	/^    def dump_elem(self, elem):$/;"	m	class:X12General
+dump_formula	.\xlrd\formula.py	/^def dump_formula(bk, data, fmlalen, bv, reldelta, blah=0, isname=0):$/;"	f
+dump_formula	.\xlrd\sheet.py	/^from .formula import dump_formula, decompile_formula, rangename2d, FMLA_TYPE_CELL, FMLA_TYPE_SHARED$/;"	i
+dump_list	.\xlrd\compdoc.py	/^def dump_list(alist, stride, f=sys.stdout):$/;"	f
+dumpout	.\xlrd\xlsx.py	/^    def dumpout(self, fmt, *vargs):$/;"	m	class:X12General
+elementtree	.\xlrd\xlsx.py	/^                        try: import elementtree.ElementTree as ET$/;"	i
+empty_cell	.\xlrd\__init__.py	/^from .sheet import empty_cell$/;"	i
+empty_cell	.\xlrd\book.py	/^empty_cell = sheet.empty_cell # for exposure to the world ...$/;"	v
+empty_cell	.\xlrd\sheet.py	/^empty_cell = Cell(XL_CELL_EMPTY, UNICODE_LITERAL(''))$/;"	v
+encoding	.\xlrd\book.py	/^    encoding = None$/;"	v	class:Book
+encoding_from_codepage	.\xlrd\biffh.py	/^encoding_from_codepage = {$/;"	v
+encodings	.\xlrd\__init__.py	/^    import encodings$/;"	i
+encodings	.\xlrd\book.py	/^    import encodings$/;"	i
+end	.\docs\make.bat	/^:end$/;"	l
+ensure_elementtree_imported	.\xlrd\xlsx.py	/^def ensure_elementtree_imported(verbosity, logfile):$/;"	f
+ensure_unicode	.\xlrd\timemachine.py	/^    ensure_unicode = lambda s: s$/;"	v
+ensure_unicode	.\xlrd\timemachine.py	/^    ensure_unicode = unicode # used only in xlsx.py$/;"	v
+epoch_1900	.\xlrd\xldate.py	/^epoch_1900 = datetime.datetime(1899, 12, 31)$/;"	v
+epoch_1900_minus_1	.\xlrd\xldate.py	/^epoch_1900_minus_1 = datetime.datetime(1899, 12, 30)$/;"	v
+epoch_1904	.\xlrd\xldate.py	/^epoch_1904 = datetime.datetime(1904, 1, 1)$/;"	v
+error_code_from_text	.\xlrd\xlsx.py	/^error_code_from_text = {}$/;"	v
+error_opcodes	.\xlrd\formula.py	/^error_opcodes = set([0x07, 0x08, 0x0A, 0x0B, 0x1C, 0x1D, 0x2F])$/;"	v
+error_text_from_code	.\xlrd\biffh.py	/^error_text_from_code = {$/;"	v
+error_text_from_code	.\xlrd\formula.py	/^    XLRDError, hex_char_dump, error_text_from_code, BaseObject$/;"	i
+error_text_from_code	.\xlrd\xlsx.py	/^from .biffh import error_text_from_code, XLRDError, XL_CELL_BLANK, XL_CELL_TEXT, XL_CELL_BOOLEAN, XL_CELL_ERROR$/;"	i
+escapement	.\xlrd\formatting.py	/^    escapement = 0$/;"	v	class:Font
+etree	.\xlrd\xlsx.py	/^                    try: import xml.etree.ElementTree as ET$/;"	i
+etree	.\xlrd\xlsx.py	/^        import xml.etree.ElementTree as ET$/;"	i
+etree	.\xlrd\xlsx.py	/^        try: import xml.etree.cElementTree as ET$/;"	i
+evaluate_name_formula	.\xlrd\formula.py	/^def evaluate_name_formula(bk, nobj, namex, blah=0, level=0):$/;"	f
+excel_default_palette_b2	.\xlrd\formatting.py	/^excel_default_palette_b2 = excel_default_palette_b5[:16]$/;"	v
+excel_default_palette_b5	.\xlrd\formatting.py	/^excel_default_palette_b5 = ($/;"	v
+excel_default_palette_b8	.\xlrd\formatting.py	/^excel_default_palette_b8 = ( # (red, green, blue)$/;"	v
+exclude_patterns	.\docs\conf.py	/^exclude_patterns = ['_build']$/;"	v
+expand_cell_address	.\xlrd\book.py	/^def expand_cell_address(inrow, incol):$/;"	f
+extensions	.\docs\conf.py	/^extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx']$/;"	v
+fake_XF_from_BIFF20_cell_attr	.\xlrd\sheet.py	/^    def fake_XF_from_BIFF20_cell_attr(self, cell_attr, style=0):$/;"	m	class:Sheet
+fake_globals_get_sheet	.\xlrd\book.py	/^    def fake_globals_get_sheet(self): # for BIFF 4.0 and earlier$/;"	m	class:Book
+family	.\xlrd\formatting.py	/^    family = 0$/;"	v	class:Font
+fcolx	.\xlrd\sheet.py	/^    fcolx = None$/;"	v	class:Hyperlink
+fill_in_standard_formats	.\xlrd\formatting.py	/^def fill_in_standard_formats(book):$/;"	f
+fill_pattern	.\xlrd\formatting.py	/^    fill_pattern = 0$/;"	v	class:XFBackground
+finish_off	.\xlrd\xlsx.py	/^    def finish_off(self):$/;"	m	class:X12General
+firstarg	.\scripts\runxlrd.py	/^    firstarg = av[0].lower()$/;"	v
+fixed_BIFF2_xfindex	.\xlrd\sheet.py	/^    def fixed_BIFF2_xfindex(self, cell_attr, rowx, colx, true_xfx=None):$/;"	m	class:Sheet
+fmt_bracketed_sub	.\xlrd\formatting.py	/^fmt_bracketed_sub = re.compile(r'\\[[^]]*\\]').sub$/;"	v
+fmt_code_ranges	.\xlrd\formatting.py	/^fmt_code_ranges = [ # both-inclusive ranges of "standard" format codes$/;"	v
+font_index	.\xlrd\formatting.py	/^    font_index = 0$/;"	v	class:Font
+font_index	.\xlrd\formatting.py	/^    font_index = 0$/;"	v	class:XF
+font_list	.\xlrd\book.py	/^    font_list = []$/;"	v	class:Book
+format_key	.\xlrd\formatting.py	/^    format_key = 0$/;"	v	class:Format
+format_key	.\xlrd\formatting.py	/^    format_key = 0$/;"	v	class:XF
+format_list	.\xlrd\book.py	/^    format_list = []$/;"	v	class:Book
+format_map	.\xlrd\book.py	/^    format_map = {}$/;"	v	class:Book
+format_str	.\xlrd\formatting.py	/^    format_str = UNICODE_LITERAL('')$/;"	v	class:Format
+formatting	.\xlrd\book.py	/^from . import formatting$/;"	i
+formula_hidden	.\xlrd\formatting.py	/^    formula_hidden = 0$/;"	v	class:XFProtection
+fprintf	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+fprintf	.\xlrd\timemachine.py	/^    def fprintf(f, fmt, *vargs):$/;"	f
+from_this_dir	.\tests\base.py	/^def from_this_dir(filename):$/;"	f
+from_this_dir	.\tests\test_cell.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_formats.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_formulas.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_missing_records.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_open_workbook.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_sheet.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_workbook.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_xlsx_comments.py	/^from .base import from_this_dir$/;"	i
+from_this_dir	.\tests\test_xlsx_parse.py	/^from .base import from_this_dir$/;"	i
+frowx	.\xlrd\sheet.py	/^    frowx = None$/;"	v	class:Hyperlink
+func	.\xlrd\book.py	/^    func = 0$/;"	v	class:Name
+func_defs	.\xlrd\formula.py	/^func_defs = {$/;"	v
+funcgroup	.\xlrd\book.py	/^    funcgroup = 0$/;"	v	class:Name
+gc	.\scripts\runxlrd.py	/^    import sys, time, glob, traceback, gc$/;"	i
+gc	.\xlrd\book.py	/^import gc$/;"	i
+gcw	.\xlrd\sheet.py	/^    gcw = (0, ) * 256$/;"	v	class:Sheet
+get2bytes	.\xlrd\book.py	/^    def get2bytes(self):$/;"	m	class:Book
+get_cell_addr	.\xlrd\formula.py	/^def get_cell_addr(data, pos, bv, reldelta, browx=None, bcolx=None):$/;"	f
+get_cell_range_addr	.\xlrd\formula.py	/^def get_cell_range_addr(data, pos, bv, reldelta, browx=None, bcolx=None):$/;"	f
+get_externsheet_local_range	.\xlrd\formula.py	/^def get_externsheet_local_range(bk, refx, blah=0):$/;"	f
+get_externsheet_local_range_b57	.\xlrd\formula.py	/^def get_externsheet_local_range_b57($/;"	f
+get_named_stream	.\xlrd\compdoc.py	/^    def get_named_stream(self, qname):$/;"	m	class:CompDoc
+get_nul_terminated_unicode	.\xlrd\sheet.py	/^        def get_nul_terminated_unicode(buf, ofs):$/;"	f	function:Sheet.handle_hlink
+get_record_parts	.\xlrd\book.py	/^    def get_record_parts(self):$/;"	m	class:Book
+get_record_parts_conditional	.\xlrd\book.py	/^    def get_record_parts_conditional(self, reqd_record):$/;"	m	class:Book
+get_row_data	.\scripts\runxlrd.py	/^    def get_row_data(bk, sh, rowx, colrange):$/;"	f
+get_rows	.\xlrd\sheet.py	/^    def get_rows(self):$/;"	m	class:Sheet
+get_sheet	.\xlrd\book.py	/^    def get_sheet(self, sh_number, update_pos=True):$/;"	m	class:Book
+get_sheets	.\xlrd\book.py	/^    def get_sheets(self):$/;"	m	class:Book
+get_text_from_si_or_is	.\xlrd\xlsx.py	/^def get_text_from_si_or_is(self, elem, r_tag=U_SSML12+'r', t_tag=U_SSML12 +'t'):$/;"	f
+get_value	.\tests\test_formulas.py	/^    def get_value(self, col, row):$/;"	m	class:TestFormulas
+get_value	.\tests\test_formulas.py	/^    def get_value(self, col, row):$/;"	m	class:TestNameFormulas
+getbof	.\xlrd\book.py	/^    def getbof(self, rqd_stream):$/;"	m	class:Book
+glob	.\scripts\runxlrd.py	/^    import sys, time, glob, traceback, gc$/;"	i
+glob	.\xlrd\examples\xlrdnameAPIdemo.py	/^import glob$/;"	i
+handle_boundsheet	.\xlrd\book.py	/^    def handle_boundsheet(self, data):$/;"	m	class:Book
+handle_builtinfmtcount	.\xlrd\book.py	/^    def handle_builtinfmtcount(self, data):$/;"	m	class:Book
+handle_codepage	.\xlrd\book.py	/^    def handle_codepage(self, data):$/;"	m	class:Book
+handle_country	.\xlrd\book.py	/^    def handle_country(self, data):$/;"	m	class:Book
+handle_datemode	.\xlrd\book.py	/^    def handle_datemode(self, data):$/;"	m	class:Book
+handle_efont	.\xlrd\formatting.py	/^def handle_efont(book, data): # BIFF2 only$/;"	f
+handle_externname	.\xlrd\book.py	/^    def handle_externname(self, data):$/;"	m	class:Book
+handle_externsheet	.\xlrd\book.py	/^    def handle_externsheet(self, data):$/;"	m	class:Book
+handle_feat11	.\xlrd\sheet.py	/^    def handle_feat11(self, data):$/;"	m	class:Sheet
+handle_filepass	.\xlrd\book.py	/^    def handle_filepass(self, data):$/;"	m	class:Book
+handle_font	.\xlrd\formatting.py	/^def handle_font(book, data):$/;"	f
+handle_format	.\xlrd\formatting.py	/^def handle_format(self, data, rectype=XL_FORMAT):$/;"	f
+handle_hlink	.\xlrd\sheet.py	/^    def handle_hlink(self, data):$/;"	m	class:Sheet
+handle_msodrawingetc	.\xlrd\sheet.py	/^    def handle_msodrawingetc(self, recid, data_len, data):$/;"	m	class:Sheet
+handle_name	.\xlrd\book.py	/^    def handle_name(self, data):$/;"	m	class:Book
+handle_note	.\xlrd\sheet.py	/^    def handle_note(self, data, txos):$/;"	m	class:Sheet
+handle_obj	.\xlrd\book.py	/^    def handle_obj(self, data):$/;"	m	class:Book
+handle_obj	.\xlrd\sheet.py	/^    def handle_obj(self, data):$/;"	m	class:Sheet
+handle_palette	.\xlrd\formatting.py	/^def handle_palette(book, data):$/;"	f
+handle_quicktip	.\xlrd\sheet.py	/^    def handle_quicktip(self, data):$/;"	m	class:Sheet
+handle_sheethdr	.\xlrd\book.py	/^    def handle_sheethdr(self, data):$/;"	m	class:Book
+handle_sheetsoffset	.\xlrd\book.py	/^    def handle_sheetsoffset(self, data):$/;"	m	class:Book
+handle_sst	.\xlrd\book.py	/^    def handle_sst(self, data):$/;"	m	class:Book
+handle_style	.\xlrd\formatting.py	/^def handle_style(book, data):$/;"	f
+handle_supbook	.\xlrd\book.py	/^    def handle_supbook(self, data):$/;"	m	class:Book
+handle_txo	.\xlrd\sheet.py	/^    def handle_txo(self, data):$/;"	m	class:Sheet
+handle_writeaccess	.\xlrd\book.py	/^    def handle_writeaccess(self, data):$/;"	m	class:Book
+handle_xf	.\xlrd\formatting.py	/^def handle_xf(self, data):$/;"	f
+has_pane_record	.\xlrd\sheet.py	/^    has_pane_record = 0$/;"	v	class:Sheet
+height	.\xlrd\formatting.py	/^    height = 0$/;"	v	class:Font
+hex_char_dump	.\xlrd\biffh.py	/^def hex_char_dump(strg, ofs, dlen, base=0, fout=sys.stdout, unnumbered=False):$/;"	f
+hex_char_dump	.\xlrd\formula.py	/^    XLRDError, hex_char_dump, error_text_from_code, BaseObject$/;"	i
+hidden	.\xlrd\book.py	/^    hidden = 0$/;"	v	class:Name
+hidden	.\xlrd\sheet.py	/^    hidden = 0$/;"	v	class:Colinfo
+hor_align	.\xlrd\formatting.py	/^    hor_align = 0$/;"	v	class:XFAlignment
+horizontal_page_breaks	.\xlrd\sheet.py	/^    horizontal_page_breaks = []$/;"	v	class:Sheet
+horz_split_first_visible	.\xlrd\sheet.py	/^    horz_split_first_visible = 0$/;"	v	class:Sheet
+horz_split_pos	.\xlrd\sheet.py	/^    horz_split_pos = 0$/;"	v	class:Sheet
+hotshot	.\scripts\runxlrd.py	/^        import hotshot, hotshot.stats$/;"	i
+html_theme	.\docs\conf.py	/^    html_theme = 'classic'$/;"	v
+html_theme	.\docs\conf.py	/^    html_theme = 'default'$/;"	v
+htmlhelp_basename	.\docs\conf.py	/^htmlhelp_basename = project+'doc'$/;"	v
+hyperlink_list	.\xlrd\sheet.py	/^    hyperlink_list = []$/;"	v	class:Sheet
+hyperlink_map	.\xlrd\sheet.py	/^    hyperlink_map = {}$/;"	v	class:Sheet
+implementation	.\xlrd\xlsx.py	/^                            raise Exception("Failed to import an ElementTree implementation")$/;"	i
+include_package_data	.\setup.py	/^    include_package_data=True$/;"	v
+indent_level	.\xlrd\formatting.py	/^    indent_level = 0$/;"	v	class:XFAlignment
+initialise_book	.\xlrd\formatting.py	/^def initialise_book(book):$/;"	f
+initialise_colour_map	.\xlrd\formatting.py	/^def initialise_colour_map(book):$/;"	f
+initialise_format_info	.\xlrd\book.py	/^    def initialise_format_info(self):$/;"	m	class:Book
+insert_new_BIFF20_xf	.\xlrd\sheet.py	/^    def insert_new_BIFF20_xf(self, cell_attr, style=0):$/;"	m	class:Sheet
+intersphinx_mapping	.\docs\conf.py	/^intersphinx_mapping = {'http:\/\/docs.python.org': None}$/;"	v
+intersphinx_mapping	.\docs\conf.py	/^intersphinx_mapping = {'python': ('http:\/\/docs.python.org', None)}$/;"	v
+is	.\xlrd\__init__.py	/^from .formula import * # is constrained by __all__$/;"	i
+is_1904	.\tests\test_xldate_to_datetime.py	/^is_1904 = True$/;"	v
+is_cell_opcode	.\xlrd\biffh.py	/^def is_cell_opcode(c):$/;"	f
+is_date_format_string	.\xlrd\formatting.py	/^def is_date_format_string(book, fmt):$/;"	f
+is_date_format_string	.\xlrd\xlsx.py	/^from .formatting import is_date_format_string, Format, XF$/;"	i
+is_style	.\xlrd\formatting.py	/^    is_style = 0$/;"	v	class:XF
+italic	.\xlrd\formatting.py	/^    italic = 0$/;"	v	class:Font
+join	.\xlrd\xlsx.py	/^from os.path import normpath, join$/;"	i
+keywords	.\setup.py	/^    keywords = ['xls', 'excel', 'spreadsheet', 'workbook'],$/;"	v
+kind	.\xlrd\formula.py	/^    kind = oUNK$/;"	v	class:Operand
+lcolx	.\xlrd\sheet.py	/^    lcolx = None$/;"	v	class:Hyperlink
+left_colour_index	.\xlrd\formatting.py	/^    left_colour_index = 0$/;"	v	class:XFBorder
+left_line_style	.\xlrd\formatting.py	/^    left_line_style = 0$/;"	v	class:XFBorder
+license	.\setup.py	/^    license = 'BSD',$/;"	v
+listsep	.\xlrd\formula.py	/^listsep = ',' #### probably should depend on locale$/;"	v
+load_time_stage_1	.\xlrd\book.py	/^    load_time_stage_1 = -1.0$/;"	v	class:Book
+load_time_stage_2	.\xlrd\book.py	/^    load_time_stage_2 = -1.0$/;"	v	class:Book
+locate_named_stream	.\xlrd\compdoc.py	/^    def locate_named_stream(self, qname):$/;"	m	class:CompDoc
+long_description	.\setup.py	/^    long_description = ($/;"	v
+lrowx	.\xlrd\sheet.py	/^    lrowx = None$/;"	v	class:Hyperlink
+lxml	.\xlrd\xlsx.py	/^                try: import lxml.etree as ET$/;"	i
+macro	.\xlrd\book.py	/^    macro = 0$/;"	v	class:Name
+main	.\scripts\runxlrd.py	/^    def main(cmd_args):$/;"	f
+make_name_access_maps	.\xlrd\xlsx.py	/^def make_name_access_maps(bk):$/;"	f
+map_attributes	.\xlrd\xlsx.py	/^def map_attributes(amap, elem, obj):$/;"	f
+master_doc	.\docs\conf.py	/^master_doc = 'index'$/;"	v
+merged_cells	.\xlrd\sheet.py	/^    merged_cells = []$/;"	v	class:Sheet
+mmap	.\xlrd\__init__.py	/^    import mmap$/;"	i
+mmap	.\xlrd\book.py	/^    import mmap$/;"	i
+name	.\setup.py	/^    name = 'xlrd',$/;"	v
+name	.\xlrd\book.py	/^    name = UNICODE_LITERAL("")$/;"	v	class:Name
+name	.\xlrd\formatting.py	/^    name = UNICODE_LITERAL("")$/;"	v	class:Font
+name	.\xlrd\sheet.py	/^    name = ''$/;"	v	class:Sheet
+name_and_scope_map	.\xlrd\book.py	/^    name_and_scope_map = {}$/;"	v	class:Book
+name_index	.\xlrd\book.py	/^    name_index = 0$/;"	v	class:Name
+name_map	.\xlrd\book.py	/^    name_map = {}$/;"	v	class:Book
+name_obj_list	.\xlrd\book.py	/^    name_obj_list = []$/;"	v	class:Book
+names_epilogue	.\xlrd\book.py	/^    def names_epilogue(self):$/;"	m	class:Book
+ncols	.\xlrd\sheet.py	/^    ncols = 0$/;"	v	class:Sheet
+nearest_colour_index	.\xlrd\formatting.py	/^def nearest_colour_index(colour_map, rgb, debug=0):$/;"	f
+nearest_colour_index	.\xlrd\sheet.py	/^from .formatting import nearest_colour_index, Format$/;"	i
+non_date_formats	.\xlrd\formatting.py	/^non_date_formats = {$/;"	v
+nop	.\xlrd\formula.py	/^def nop(x):$/;"	f
+normpath	.\xlrd\xlsx.py	/^from os.path import normpath, join$/;"	i
+not_1904	.\tests\test_xldate_to_datetime.py	/^not_1904 = False$/;"	v
+not_in_name_formula	.\xlrd\formula.py	/^    def not_in_name_formula(op_arg, oname_arg):$/;"	f	function:evaluate_name_formula
+nrows	.\xlrd\sheet.py	/^    nrows = 0$/;"	v	class:Sheet
+nsheets	.\xlrd\book.py	/^    nsheets = 0$/;"	v	class:Book
+null_cell	.\scripts\runxlrd.py	/^    null_cell = xlrd.empty_cell$/;"	v
+num2strg	.\xlrd\formula.py	/^def num2strg(num):$/;"	f
+num_char_dict	.\xlrd\formatting.py	/^num_char_dict = {$/;"	v
+oBOOL	.\xlrd\formula.py	/^oBOOL = 3$/;"	v
+oERR	.\xlrd\formula.py	/^oERR =  4$/;"	v
+oMSNG	.\xlrd\formula.py	/^oMSNG = 5 # tMissArg$/;"	v
+oNUM	.\xlrd\formula.py	/^oNUM =  2$/;"	v
+oREF	.\xlrd\formula.py	/^oREF = -1$/;"	v
+oREL	.\xlrd\formula.py	/^oREL = -2$/;"	v
+oSTRG	.\xlrd\formula.py	/^oSTRG = 1$/;"	v
+oUNK	.\xlrd\formula.py	/^oUNK =  0$/;"	v
+okind_dict	.\xlrd\formula.py	/^okind_dict = {$/;"	v
+on_rtd	.\docs\conf.py	/^on_rtd = os.environ.get('READTHEDOCS', None) == 'True'$/;"	v
+onames	.\xlrd\formula.py	/^onames = ['Unk00', 'Exp', 'Tbl', 'Add', 'Sub', 'Mul', 'Div', 'Power', 'Concat', 'LT', 'LE', 'EQ', 'GE', 'GT', 'NE', 'Isect', 'List', 'Range', 'Uplus', 'Uminus', 'Percent', 'Paren', 'MissArg', 'Str', 'Extended', 'Attr', 'Sheet', 'EndSheet', 'Err', 'Bool', 'Int', 'Num', 'Array', 'Func', 'FuncVar', 'Name', 'Ref', 'Area', 'MemArea', 'MemErr', 'MemNoMem', 'MemFunc', 'RefErr', 'AreaErr', 'RefN', 'AreaN', 'MemAreaN', 'MemNoMemN', '', '', '', '', '', '', '', '', 'FuncCE', 'NameX', 'Ref3d', 'Area3d', 'RefErr3d', 'AreaErr3d', '', '']$/;"	v
+open_workbook	.\tests\test_missing_records.py	/^from xlrd import open_workbook$/;"	i
+open_workbook	.\tests\test_open_workbook.py	/^from xlrd import open_workbook$/;"	i
+open_workbook	.\tests\test_workbook.py	/^from xlrd import open_workbook$/;"	i
+open_workbook	.\tests\test_xlsx_comments.py	/^from xlrd import open_workbook$/;"	i
+open_workbook	.\xlrd\__init__.py	/^def open_workbook(filename=None,$/;"	f
+open_workbook_2007_xml	.\xlrd\xlsx.py	/^def open_workbook_2007_xml($/;"	f
+open_workbook_xls	.\xlrd\book.py	/^def open_workbook_xls(filename=None,$/;"	f
+opr	.\xlrd\formula.py	/^import operator as opr$/;"	i
+options	.\scripts\runxlrd.py	/^options = None$/;"	v
+optparse	.\scripts\runxlrd.py	/^        import optparse$/;"	i
+os	.\docs\conf.py	/^import os, pkginfo$/;"	i
+os	.\tests\base.py	/^import os$/;"	i
+os	.\tests\test_cell.py	/^import os$/;"	i
+os	.\tests\test_formats.py	/^import os$/;"	i
+os	.\tests\test_formulas.py	/^import os$/;"	i
+os	.\tests\test_open_workbook.py	/^import os$/;"	i
+os	.\tests\test_sheet.py	/^import os$/;"	i
+os	.\tests\test_workbook.py	/^import os$/;"	i
+os	.\tests\test_xlsx_comments.py	/^import os$/;"	i
+outline	.\xlrd\formatting.py	/^    outline = 0$/;"	v	class:Font
+outline_level	.\xlrd\sheet.py	/^    outline_level = 0$/;"	v	class:Colinfo
+own_process_stream	.\xlrd\xlsx.py	/^    def own_process_stream(self, stream, heading=None):$/;"	m	class:X12Sheet
+p	.\scripts\runxlrd.py	/^        p = pstats.Stats('YYYY.prof')$/;"	v
+package_data	.\setup.py	/^    package_data={$/;"	v
+packages	.\setup.py	/^    packages = ['xlrd'],$/;"	v
+palette_epilogue	.\xlrd\formatting.py	/^def palette_epilogue(book):$/;"	f
+palette_record	.\xlrd\book.py	/^    palette_record = []$/;"	v	class:Book
+parent_style_index	.\xlrd\formatting.py	/^    parent_style_index = 0$/;"	v	class:XF
+parse_globals	.\xlrd\book.py	/^    def parse_globals(self):$/;"	m	class:Book
+pattern_colour_index	.\xlrd\formatting.py	/^    pattern_colour_index = 0$/;"	v	class:XFBackground
+pkg_info	.\docs\conf.py	/^pkg_info = pkginfo.Develop(os.path.join(os.path.dirname(__file__), os.pardir))$/;"	v
+pkginfo	.\docs\conf.py	/^import os, pkginfo$/;"	i
+platforms	.\setup.py	/^    platforms = ["Any platform -- don't need Windows"],$/;"	v
+pprint	.\xlrd\__init__.py	/^import sys, zipfile, pprint$/;"	i
+print_function	.\scripts\runxlrd.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\biffh.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\book.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\compdoc.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\examples\xlrdnameAPIdemo.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\formatting.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\formula.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\sheet.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\timemachine.py	/^from __future__ import print_function$/;"	i
+print_function	.\xlrd\xlsx.py	/^from __future__ import print_function, unicode_literals$/;"	i
+print_labels	.\scripts\runxlrd.py	/^    def print_labels(sh, labs, title):$/;"	f
+process_comments_stream	.\xlrd\xlsx.py	/^    def process_comments_stream(self, stream):$/;"	m	class:X12Sheet
+process_coreprops	.\xlrd\xlsx.py	/^    def process_coreprops(self, stream):$/;"	m	class:X12Book
+process_rels	.\xlrd\xlsx.py	/^    def process_rels(self, stream):$/;"	m	class:X12Book
+process_rels	.\xlrd\xlsx.py	/^    def process_rels(self, stream):$/;"	m	class:X12Sheet
+process_stream	.\xlrd\xlsx.py	/^    def process_stream(self, stream, heading=None):$/;"	m	class:X12General
+process_stream_findall	.\xlrd\xlsx.py	/^    def process_stream_findall(self, stream, heading=None):$/;"	m	class:X12SST
+process_stream_iterparse	.\xlrd\xlsx.py	/^    def process_stream_iterparse(self, stream, heading=None):$/;"	m	class:X12SST
+prof	.\scripts\runxlrd.py	/^        prof = hotshot.Profile(prof_log_name)$/;"	v
+prof_log_name	.\scripts\runxlrd.py	/^        prof_log_name = "XXXX.prof"$/;"	v
+project	.\docs\conf.py	/^project = u'xlrd'$/;"	v
+protection	.\xlrd\formatting.py	/^    protection = None$/;"	v	class:XF
+pstats	.\scripts\runxlrd.py	/^        import pstats$/;"	i
+psyco	.\scripts\runxlrd.py	/^                    import psyco$/;"	i
+put_cell_ragged	.\xlrd\sheet.py	/^    def put_cell_ragged(self, rowx, colx, ctype, value, xf_index):$/;"	m	class:Sheet
+put_cell_unragged	.\xlrd\sheet.py	/^    def put_cell_unragged(self, rowx, colx, ctype, value, xf_index):$/;"	m	class:Sheet
+pygments_style	.\docs\conf.py	/^pygments_style = 'sphinx'$/;"	v
+python_version	.\xlrd\timemachine.py	/^python_version = sys.version_info[:2] # e.g. version 2.6 -> (2, 6)$/;"	v
+quicktip	.\xlrd\sheet.py	/^    quicktip = None$/;"	v	class:Hyperlink
+quotedsheetname	.\xlrd\formula.py	/^def quotedsheetname(shnames, shx):$/;"	f
+rangename2d	.\xlrd\formula.py	/^def rangename2d(rlo, rhi, clo, chi, r1c1=0):$/;"	f
+rangename2d	.\xlrd\sheet.py	/^from .formula import dump_formula, decompile_formula, rangename2d, FMLA_TYPE_CELL, FMLA_TYPE_SHARED$/;"	i
+rangename2drel	.\xlrd\formula.py	/^def rangename2drel(rlo_rhi_clo_chi, rlorel_rhirel_clorel_chirel, browx=None, bcolx=None, r1c1=0):$/;"	f
+rangename3d	.\xlrd\formula.py	/^def rangename3d(book, ref3d):$/;"	f
+rangename3drel	.\xlrd\formula.py	/^def rangename3drel(book, ref3d, browx=None, bcolx=None, r1c1=0):$/;"	f
+raw_formula	.\xlrd\book.py	/^    raw_formula = b''$/;"	v	class:Name
+re	.\xlrd\formatting.py	/^import re$/;"	i
+re	.\xlrd\xlsx.py	/^import re$/;"	i
+read	.\xlrd\book.py	/^    def read(self, pos, length):$/;"	m	class:Book
+read	.\xlrd\sheet.py	/^    def read(self, bk):$/;"	m	class:Sheet
+release_resources	.\xlrd\book.py	/^    def release_resources(self):$/;"	m	class:Book
+req_fmt_info	.\xlrd\sheet.py	/^    def req_fmt_info(self):$/;"	m	class:Sheet
+result	.\scripts\runxlrd.py	/^        result = prof.runcall(main, *(av, ))$/;"	v
+result	.\xlrd\book.py	/^    result = None$/;"	v	class:Name
+rich_text_runlist	.\xlrd\sheet.py	/^    rich_text_runlist = None$/;"	v	class:Note
+rich_text_runlist_map	.\xlrd\sheet.py	/^    rich_text_runlist_map = {}$/;"	v	class:Sheet
+right_colour_index	.\xlrd\formatting.py	/^    right_colour_index = 0$/;"	v	class:XFBorder
+right_line_style	.\xlrd\formatting.py	/^    right_line_style = 0$/;"	v	class:XFBorder
+rotation	.\xlrd\formatting.py	/^    rotation = 0$/;"	v	class:XFAlignment
+row	.\xlrd\sheet.py	/^    def row(self, rowx):$/;"	m	class:Sheet
+row_hidden	.\xlrd\sheet.py	/^    row_hidden = 0$/;"	v	class:Note
+row_label_ranges	.\xlrd\sheet.py	/^    row_label_ranges = []$/;"	v	class:Sheet
+row_len	.\xlrd\sheet.py	/^    def row_len(self, rowx):$/;"	m	class:Sheet
+row_slice	.\xlrd\sheet.py	/^    def row_slice(self, rowx, start_colx=0, end_colx=None):$/;"	m	class:Sheet
+row_types	.\xlrd\sheet.py	/^    def row_types(self, rowx, start_colx=0, end_colx=None):$/;"	m	class:Sheet
+row_values	.\xlrd\sheet.py	/^    def row_values(self, rowx, start_colx=0, end_colx=None):$/;"	m	class:Sheet
+rowinfo_map	.\xlrd\sheet.py	/^    rowinfo_map = {}$/;"	v	class:Sheet
+rownamerel	.\xlrd\formula.py	/^def rownamerel(rowx, rowxrel, browx=None, r1c1=0):$/;"	f
+rowx	.\xlrd\sheet.py	/^    rowx = 0$/;"	v	class:Note
+scope	.\xlrd\book.py	/^    scope = -1$/;"	v	class:Name
+scope_as_string	.\xlrd\examples\xlrdnameAPIdemo.py	/^def scope_as_string(book, scope):$/;"	f
+scripts	.\setup.py	/^    scripts = [$/;"	v
+setUp	.\tests\test_cell.py	/^    def setUp(self):$/;"	m	class:TestCell
+setUp	.\tests\test_formats.py	/^    def setUp(self):$/;"	m	class:TestCellContent
+setUp	.\tests\test_formulas.py	/^    def setUp(self):$/;"	m	class:TestFormulas
+setUp	.\tests\test_formulas.py	/^    def setUp(self):$/;"	m	class:TestNameFormulas
+setUp	.\tests\test_missing_records.py	/^    def setUp(self):$/;"	m	class:TestMissingRecords
+setUp	.\tests\test_sheet.py	/^    def setUp(self):$/;"	m	class:TestSheet
+setUp	.\tests\test_workbook.py	/^    def setUp(self):$/;"	m	class:TestWorkbook
+setfileheading	.\scripts\runxlrd.py	/^        def setfileheading(self, fileheading):$/;"	m	class:LogHandler
+setup	.\setup.py	/^from setuptools import setup$/;"	i
+shadow	.\xlrd\formatting.py	/^    shadow = 0$/;"	v	class:Font
+sheet	.\xlrd\book.py	/^from . import sheet$/;"	i
+sheet_by_index	.\xlrd\book.py	/^    def sheet_by_index(self, sheetx):$/;"	m	class:Book
+sheet_by_name	.\xlrd\book.py	/^    def sheet_by_name(self, sheet_name):$/;"	m	class:Book
+sheet_loaded	.\xlrd\book.py	/^    def sheet_loaded(self, sheet_name_or_index):$/;"	m	class:Book
+sheet_names	.\xlrd\book.py	/^    def sheet_names(self):$/;"	m	class:Book
+sheetnames	.\tests\test_sheet.py	/^    sheetnames = ['PROFILEDEF', 'AXISDEF', 'TRAVERSALCHAINAGE',$/;"	v	class:TestSheet
+sheetnames	.\tests\test_workbook.py	/^    sheetnames = ['PROFILEDEF', 'AXISDEF', 'TRAVERSALCHAINAGE',$/;"	v	class:TestWorkbook
+sheetrange	.\xlrd\formula.py	/^def sheetrange(book, slo, shi):$/;"	f
+sheetrangerel	.\xlrd\formula.py	/^def sheetrangerel(book, srange, srangerel):$/;"	f
+sheets	.\xlrd\book.py	/^    def sheets(self):$/;"	m	class:Book
+show	.\scripts\runxlrd.py	/^    def show(bk, nshow=65535, printit=1):$/;"	f
+show	.\xlrd\sheet.py	/^    show = 0$/;"	v	class:Note
+show_fonts	.\scripts\runxlrd.py	/^    def show_fonts(bk):$/;"	f
+show_labels	.\scripts\runxlrd.py	/^    def show_labels(bk):$/;"	f
+show_name_details	.\xlrd\examples\xlrdnameAPIdemo.py	/^def show_name_details(book, name, show_contents=0, f=sys.stdout):$/;"	f
+show_name_details_in_scope	.\xlrd\examples\xlrdnameAPIdemo.py	/^def show_name_details_in_scope($/;"	f
+show_name_object	.\xlrd\examples\xlrdnameAPIdemo.py	/^def show_name_object(book, nobj, show_contents=0, f=sys.stdout):$/;"	f
+show_names	.\scripts\runxlrd.py	/^    def show_names(bk, dump=0):$/;"	f
+show_row	.\scripts\runxlrd.py	/^    def show_row(bk, sh, rowx, colrange, printit):$/;"	f
+showable_cell_value	.\xlrd\examples\xlrdnameAPIdemo.py	/^def showable_cell_value(celltype, cellvalue, datemode):$/;"	f
+shrink_to_fit	.\xlrd\formatting.py	/^    shrink_to_fit = 0$/;"	v	class:XFAlignment
+skip_char_dict	.\xlrd\formatting.py	/^skip_char_dict = {}$/;"	v
+source_suffix	.\docs\conf.py	/^source_suffix = '.rst'$/;"	v
+split_active_pane	.\xlrd\sheet.py	/^    split_active_pane = 0$/;"	v	class:Sheet
+split_tag	.\xlrd\xlsx.py	/^def split_tag(tag):$/;"	f
+standardwidth	.\xlrd\sheet.py	/^    standardwidth = None$/;"	v	class:Sheet
+stats	.\scripts\runxlrd.py	/^        import hotshot, hotshot.stats$/;"	i
+stats	.\scripts\runxlrd.py	/^        stats = hotshot.stats.load(prof_log_name)$/;"	v
+std_format_code_types	.\xlrd\formatting.py	/^std_format_code_types = {}$/;"	v
+std_format_strings	.\xlrd\formatting.py	/^std_format_strings = {$/;"	v
+string_record_contents	.\xlrd\sheet.py	/^    def string_record_contents(self, data):$/;"	m	class:Sheet
+struck_out	.\xlrd\formatting.py	/^    struck_out = 0$/;"	v	class:Font
+struct	.\xlrd\book.py	/^import struct; unpack = struct.unpack$/;"	i
+style_name_map	.\xlrd\book.py	/^    style_name_map = {}$/;"	v	class:Book
+sys	.\scripts\runxlrd.py	/^    import sys, time, glob, traceback, gc$/;"	i
+sys	.\tests\test_biffh.py	/^import sys$/;"	i
+sys	.\tests\test_cell.py	/^import sys$/;"	i
+sys	.\tests\test_formats.py	/^import sys$/;"	i
+sys	.\tests\test_formulas.py	/^import sys$/;"	i
+sys	.\tests\test_sheet.py	/^import sys$/;"	i
+sys	.\tests\test_workbook.py	/^import sys$/;"	i
+sys	.\tests\test_xldate.py	/^import sys$/;"	i
+sys	.\xlrd\__init__.py	/^import sys, zipfile, pprint$/;"	i
+sys	.\xlrd\biffh.py	/^import sys$/;"	i
+sys	.\xlrd\book.py	/^import sys$/;"	i
+sys	.\xlrd\compdoc.py	/^import sys$/;"	i
+sys	.\xlrd\examples\xlrdnameAPIdemo.py	/^import sys$/;"	i
+sys	.\xlrd\timemachine.py	/^import sys$/;"	i
+sys	.\xlrd\xlsx.py	/^import sys$/;"	i
+szdict	.\xlrd\formula.py	/^szdict = {$/;"	v
+sztab0	.\xlrd\formula.py	/^sztab0 = [-2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -2, -1, 8, 4, 2, 2, 3, 9, 8, 2, 3, 8, 4, 7, 5, 5, 5, 2, 4, 7, 4, 7, 2, 2, -2, -2, -2, -2, -2, -2, -2, -2, 3, -2, -2, -2, -2, -2, -2, -2]$/;"	v
+sztab1	.\xlrd\formula.py	/^sztab1 = [-2, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -2, -1, 11, 5, 2, 2, 3, 9, 9, 2, 3, 11, 4, 7, 7, 7, 7, 3, 4, 7, 4, 7, 3, 3, -2, -2, -2, -2, -2, -2, -2, -2, 3, -2, -2, -2, -2, -2, -2, -2]$/;"	v
+sztab2	.\xlrd\formula.py	/^sztab2 = [-2, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -2, -1, 11, 5, 2, 2, 3, 9, 9, 3, 4, 11, 4, 7, 7, 7, 7, 3, 4, 7, 4, 7, 3, 3, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2]$/;"	v
+sztab3	.\xlrd\formula.py	/^sztab3 = [-2, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -2, -1, -2, -2, 2, 2, 3, 9, 9, 3, 4, 15, 4, 7, 7, 7, 7, 3, 4, 7, 4, 7, 3, 3, -2, -2, -2, -2, -2, -2, -2, -2, -2, 25, 18, 21, 18, 21, -2, -2]$/;"	v
+sztab4	.\xlrd\formula.py	/^sztab4 = [-2, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -2, -2, 2, 2, 3, 9, 9, 3, 4, 5, 5, 9, 7, 7, 7, 3, 5, 9, 5, 9, 3, 3, -2, -2, -2, -2, -2, -2, -2, -2, -2, 7, 7, 11, 7, 11, -2, -2]$/;"	v
+tAdd	.\xlrd\formula.py	/^tAdd = 0x03$/;"	v
+tAttrNames	.\xlrd\formula.py	/^tAttrNames = {$/;"	v
+tConcat	.\xlrd\formula.py	/^tConcat = 0x08$/;"	v
+tDiv	.\xlrd\formula.py	/^tDiv = 0x06$/;"	v
+tIsectFuncs	.\xlrd\formula.py	/^tIsectFuncs = (max, min, max, min, max, min)$/;"	v
+tMul	.\xlrd\formula.py	/^tMul = 0x05$/;"	v
+tPower	.\xlrd\formula.py	/^tPower = 0x07$/;"	v
+tRangeFuncs	.\xlrd\formula.py	/^tRangeFuncs = (min, max, min, max, min, max)$/;"	v
+tSub	.\xlrd\formula.py	/^tSub = 0x04$/;"	v
+tag2meth	.\xlrd\xlsx.py	/^    tag2meth = {$/;"	v	class:X12Book
+tag2meth	.\xlrd\xlsx.py	/^    tag2meth = {$/;"	v	class:X12Sheet
+tag2meth	.\xlrd\xlsx.py	/^    tag2meth = {$/;"	v	class:X12Styles
+target	.\xlrd\sheet.py	/^    target = None$/;"	v	class:Hyperlink
+test_BYTES_X00	.\tests\test_open_workbook.py	/^    def test_BYTES_X00(self):$/;"	m	class:TestOpen
+test_attrsum	.\tests\test_formulas.py	/^    def test_attrsum(self):$/;"	m	class:TestNameFormulas
+test_calculated_cell	.\tests\test_cell.py	/^    def test_calculated_cell(self):$/;"	m	class:TestCell
+test_cell	.\tests\test_sheet.py	/^    def test_cell(self):$/;"	m	class:TestSheet
+test_cell_B2	.\tests\test_formulas.py	/^    def test_cell_B2(self):$/;"	m	class:TestFormulas
+test_cell_B3	.\tests\test_formulas.py	/^    def test_cell_B3(self):$/;"	m	class:TestFormulas
+test_cell_B4	.\tests\test_formulas.py	/^    def test_cell_B4(self):$/;"	m	class:TestFormulas
+test_cell_B5	.\tests\test_formulas.py	/^    def test_cell_B5(self):$/;"	m	class:TestFormulas
+test_cell_B6	.\tests\test_formulas.py	/^    def test_cell_B6(self):$/;"	m	class:TestFormulas
+test_cell_B7	.\tests\test_formulas.py	/^    def test_cell_B7(self):$/;"	m	class:TestFormulas
+test_cell_B8	.\tests\test_formulas.py	/^    def test_cell_B8(self):$/;"	m	class:TestFormulas
+test_cell_error	.\tests\test_sheet.py	/^    def test_cell_error(self):$/;"	m	class:TestSheet
+test_cell_type	.\tests\test_sheet.py	/^    def test_cell_type(self):$/;"	m	class:TestSheet
+test_cell_type_error	.\tests\test_sheet.py	/^    def test_cell_type_error(self):$/;"	m	class:TestSheet
+test_cell_value	.\tests\test_sheet.py	/^    def test_cell_value(self):$/;"	m	class:TestSheet
+test_cell_value_error	.\tests\test_sheet.py	/^    def test_cell_value_error(self):$/;"	m	class:TestSheet
+test_cell_xf_index	.\tests\test_sheet.py	/^    def test_cell_xf_index(self):$/;"	m	class:TestSheet
+test_cell_xf_index_error	.\tests\test_sheet.py	/^    def test_cell_xf_index_error(self):$/;"	m	class:TestSheet
+test_choose	.\tests\test_formulas.py	/^    def test_choose(self):$/;"	m	class:TestNameFormulas
+test_col	.\tests\test_sheet.py	/^    def test_col(self):$/;"	m	class:TestSheet
+test_col_slice	.\tests\test_sheet.py	/^    def test_col_slice(self):$/;"	m	class:TestSheet
+test_col_types	.\tests\test_sheet.py	/^    def test_col_types(self):$/;"	m	class:TestSheet
+test_col_values	.\tests\test_sheet.py	/^    def test_col_values(self):$/;"	m	class:TestSheet
+test_currency_cells	.\tests\test_formats.py	/^    def test_currency_cells(self):$/;"	m	class:TestCellContent
+test_date_as_tuple	.\tests\test_xldate.py	/^    def test_date_as_tuple(self):$/;"	m	class:TestXLDate
+test_date_cells	.\tests\test_formats.py	/^    def test_date_cells(self):$/;"	m	class:TestCellContent
+test_dates_and_times_1900_epoch	.\tests\test_xldate_to_datetime.py	/^    def test_dates_and_times_1900_epoch(self):$/;"	m	class:TestConvertToDateTime
+test_dates_only_1900_epoch	.\tests\test_xldate_to_datetime.py	/^    def test_dates_only_1900_epoch(self):$/;"	m	class:TestConvertToDateTime
+test_dates_only_1904_epoch	.\tests\test_xldate_to_datetime.py	/^    def test_dates_only_1904_epoch(self):$/;"	m	class:TestConvertToDateTime
+test_default_format	.\tests\test_missing_records.py	/^    def test_default_format(self):$/;"	m	class:TestMissingRecords
+test_default_window2_options	.\tests\test_missing_records.py	/^    def test_default_window2_options(self):$/;"	m	class:TestMissingRecords
+test_empty_cell	.\tests\test_cell.py	/^    def test_empty_cell(self):$/;"	m	class:TestCell
+test_err_cell_empty	.\tests\test_open_workbook.py	/^    def test_err_cell_empty(self):$/;"	m	class:TestOpen
+test_excel_comments	.\tests\test_xlsx_comments.py	/^    def test_excel_comments(self):$/;"	m	class:TestXlsxComments
+test_excel_comments_multiline	.\tests\test_xlsx_comments.py	/^    def test_excel_comments_multiline(self):$/;"	m	class:TestXlsxComments
+test_excel_comments_no_t_elements	.\tests\test_xlsx_comments.py	/^    def test_excel_comments_no_t_elements(self):$/;"	m	class:TestXlsxComments
+test_excel_comments_two_t_elements	.\tests\test_xlsx_comments.py	/^    def test_excel_comments_two_t_elements(self):$/;"	m	class:TestXlsxComments
+test_excel_comments_with_multi_sheets	.\tests\test_xlsx_comments.py	/^    def test_excel_comments_with_multi_sheets(self):$/;"	m	class:TestXlsxComments
+test_for_github_issue_101	.\tests\test_xlsx_parse.py	/^    def test_for_github_issue_101(self):$/;"	m	class:TestXlsxParse
+test_for_github_issue_150	.\tests\test_xlsx_parse.py	/^    def test_for_github_issue_150(self):$/;"	m	class:TestXlsxParse
+test_for_github_issue_75	.\tests\test_xlsx_parse.py	/^    def test_for_github_issue_75(self):$/;"	m	class:TestXlsxParse
+test_for_github_issue_96	.\tests\test_xlsx_parse.py	/^    def test_for_github_issue_96(self):$/;"	m	class:TestXlsxParse
+test_func	.\tests\test_formulas.py	/^    def test_func(self):$/;"	m	class:TestNameFormulas
+test_func_var_args	.\tests\test_formulas.py	/^    def test_func_var_args(self):$/;"	m	class:TestNameFormulas
+test_gdocs_comments	.\tests\test_xlsx_comments.py	/^    def test_gdocs_comments(self):$/;"	m	class:TestXlsxComments
+test_get_from_merged_cell	.\tests\test_formats.py	/^    def test_get_from_merged_cell(self):$/;"	m	class:TestCellContent
+test_get_rows	.\tests\test_sheet.py	/^    def test_get_rows(self):$/;"	m	class:TestSheet
+test_hex_char_dump	.\tests\test_biffh.py	/^    def test_hex_char_dump(self):$/;"	m	class:TestHexDump
+test_if	.\tests\test_formulas.py	/^    def test_if(self):$/;"	m	class:TestNameFormulas
+test_ignore_diagram	.\tests\test_formats.py	/^    def test_ignore_diagram(self):$/;"	m	class:TestCellContent
+test_merged_cells	.\tests\test_cell.py	/^    def test_merged_cells(self):$/;"	m	class:TestCell
+test_merged_cells_xlsx	.\tests\test_cell.py	/^    def test_merged_cells_xlsx(self):$/;"	m	class:TestCell
+test_names_demo	.\tests\test_open_workbook.py	/^    def test_names_demo(self):$/;"	m	class:TestOpen
+test_ncols	.\tests\test_sheet.py	/^    def test_ncols(self):$/;"	m	class:TestSheet
+test_nrows	.\tests\test_sheet.py	/^    def test_nrows(self):$/;"	m	class:TestSheet
+test_nsheets	.\tests\test_workbook.py	/^    def test_nsheets(self):$/;"	m	class:TestWorkbook
+test_number_cell	.\tests\test_cell.py	/^    def test_number_cell(self):$/;"	m	class:TestCell
+test_open_workbook	.\tests\test_workbook.py	/^    def test_open_workbook(self):$/;"	m	class:TestWorkbook
+test_percent_cells	.\tests\test_formats.py	/^    def test_percent_cells(self):$/;"	m	class:TestCellContent
+test_ragged_rows_tidied_with_formatting	.\tests\test_open_workbook.py	/^    def test_ragged_rows_tidied_with_formatting(self):$/;"	m	class:TestOpen
+test_read_ragged	.\tests\test_sheet.py	/^    def test_read_ragged(self):$/;"	m	class:TestSheetRagged
+test_row	.\tests\test_sheet.py	/^    def test_row(self):$/;"	m	class:TestSheet
+test_row_slice	.\tests\test_sheet.py	/^    def test_row_slice(self):$/;"	m	class:TestSheet
+test_row_types	.\tests\test_sheet.py	/^    def test_row_types(self):$/;"	m	class:TestSheet
+test_row_values	.\tests\test_sheet.py	/^    def test_row_values(self):$/;"	m	class:TestSheet
+test_sheet_by_index	.\tests\test_workbook.py	/^    def test_sheet_by_index(self):$/;"	m	class:TestWorkbook
+test_sheet_by_name	.\tests\test_workbook.py	/^    def test_sheet_by_name(self):$/;"	m	class:TestWorkbook
+test_sheet_names	.\tests\test_workbook.py	/^    def test_sheet_names(self):$/;"	m	class:TestWorkbook
+test_sheets	.\tests\test_workbook.py	/^    def test_sheets(self):$/;"	m	class:TestWorkbook
+test_string_cell	.\tests\test_cell.py	/^    def test_string_cell(self):$/;"	m	class:TestCell
+test_text_cells	.\tests\test_formats.py	/^    def test_text_cells(self):$/;"	m	class:TestCellContent
+test_tidy_dimensions	.\tests\test_sheet.py	/^    def test_tidy_dimensions(self):$/;"	m	class:TestMergedCells
+test_time_as_tuple	.\tests\test_xldate.py	/^    def test_time_as_tuple(self):$/;"	m	class:TestXLDate
+test_time_cells	.\tests\test_formats.py	/^    def test_time_cells(self):$/;"	m	class:TestCellContent
+test_times_only	.\tests\test_xldate_to_datetime.py	/^    def test_times_only(self):$/;"	m	class:TestConvertToDateTime
+test_unaryop	.\tests\test_formulas.py	/^    def test_unaryop(self):$/;"	m	class:TestNameFormulas
+test_xldate_from_date_tuple	.\tests\test_xldate.py	/^    def test_xldate_from_date_tuple(self):$/;"	m	class:TestXLDate
+test_xldate_from_datetime_tuple	.\tests\test_xldate.py	/^    def test_xldate_from_datetime_tuple(self):$/;"	m	class:TestXLDate
+test_xldate_from_time_tuple	.\tests\test_xldate.py	/^    def test_xldate_from_time_tuple(self):$/;"	m	class:TestXLDate
+test_xlsx	.\tests\test_open_workbook.py	/^    def test_xlsx(self):$/;"	m	class:TestOpen
+test_xlsx_simple	.\tests\test_open_workbook.py	/^    def test_xlsx_simple(self):$/;"	m	class:TestOpen
+text	.\xlrd\formula.py	/^    text = '?'$/;"	v	class:Operand
+text	.\xlrd\sheet.py	/^    text = UNICODE_LITERAL('')$/;"	v	class:Note
+text_direction	.\xlrd\formatting.py	/^    text_direction = 0$/;"	v	class:XFAlignment
+text_wrapped	.\xlrd\formatting.py	/^    text_wrapped = 0$/;"	v	class:XFAlignment
+textmark	.\xlrd\sheet.py	/^    textmark = None$/;"	v	class:Hyperlink
+tidy_dimensions	.\xlrd\sheet.py	/^    def tidy_dimensions(self):$/;"	m	class:Sheet
+time	.\scripts\runxlrd.py	/^    import sys, time, glob, traceback, gc$/;"	i
+time	.\xlrd\book.py	/^import time$/;"	i
+timemachine	.\xlrd\__init__.py	/^from . import timemachine$/;"	i
+top_colour_index	.\xlrd\formatting.py	/^    top_colour_index = 0$/;"	v	class:XFBorder
+top_line_style	.\xlrd\formatting.py	/^    top_line_style = 0$/;"	v	class:XFBorder
+traceback	.\scripts\runxlrd.py	/^    import sys, time, glob, traceback, gc$/;"	i
+type	.\xlrd\formatting.py	/^    type = FUN$/;"	v	class:Format
+type	.\xlrd\sheet.py	/^    type = None$/;"	v	class:Hyperlink
+types	.\tests\test_sheet.py	/^import types$/;"	i
+u	.\tests\test_formats.py	/^    def u(s): return s$/;"	f
+u	.\tests\test_formats.py	/^    def u(s):$/;"	f
+underline_type	.\xlrd\formatting.py	/^    underline_type = 0$/;"	v	class:Font
+underlined	.\xlrd\formatting.py	/^    underlined = 0$/;"	v	class:Font
+unescape	.\xlrd\xlsx.py	/^def unescape(s,$/;"	f
+unexpected_opcode	.\xlrd\formula.py	/^    def unexpected_opcode(op_arg, oname_arg):$/;"	f	function:decompile_formula
+unichr	.\xlrd\timemachine.py	/^    unichr = chr$/;"	v
+unicode	.\xlrd\timemachine.py	/^    unicode = lambda b, enc: b.decode(enc)$/;"	v
+unicode_literals	.\xlrd\xlsx.py	/^from __future__ import print_function, unicode_literals$/;"	i
+unittest	.\tests\test_biffh.py	/^import unittest$/;"	i
+unittest	.\tests\test_cell.py	/^import unittest$/;"	i
+unittest	.\tests\test_sheet.py	/^import unittest$/;"	i
+unittest	.\tests\test_xldate.py	/^import unittest$/;"	i
+unittest	.\tests\test_xldate_to_datetime.py	/^import unittest$/;"	i
+unittest	.\tests\test_xlsx_parse.py	/^import unittest$/;"	i
+unload_sheet	.\xlrd\book.py	/^    def unload_sheet(self, sheet_name_or_index):$/;"	m	class:Book
+unop_rules	.\xlrd\formula.py	/^unop_rules = {$/;"	v
+unpack	.\xlrd\biffh.py	/^from struct import unpack$/;"	i
+unpack	.\xlrd\book.py	/^import struct; unpack = struct.unpack$/;"	i
+unpack	.\xlrd\compdoc.py	/^from struct import unpack$/;"	i
+unpack	.\xlrd\formatting.py	/^from struct import unpack$/;"	i
+unpack	.\xlrd\formula.py	/^from struct import unpack$/;"	i
+unpack	.\xlrd\sheet.py	/^from struct import unpack, calcsize$/;"	i
+unpack_RK	.\xlrd\sheet.py	/^def unpack_RK(rk_str):$/;"	f
+unpack_SST_table	.\xlrd\book.py	/^def unpack_SST_table(datatab, nstrings):$/;"	f
+unpack_cell_range_address_list_update_pos	.\xlrd\biffh.py	/^def unpack_cell_range_address_list_update_pos($/;"	f
+unpack_string	.\xlrd\biffh.py	/^def unpack_string(data, pos, encoding, lenlen=1):$/;"	f
+unpack_string	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+unpack_string_update_pos	.\xlrd\biffh.py	/^def unpack_string_update_pos(data, pos, encoding, lenlen=1, known_len=None):$/;"	f
+unpack_string_update_pos	.\xlrd\formula.py	/^    XLRDError, hex_char_dump, error_text_from_code, BaseObject$/;"	i
+unpack_unicode	.\xlrd\biffh.py	/^def unpack_unicode(data, pos, lenlen=2):$/;"	f
+unpack_unicode	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+unpack_unicode_update_pos	.\xlrd\biffh.py	/^def unpack_unicode_update_pos(data, pos, lenlen=2, known_len=None):$/;"	f
+unpack_unicode_update_pos	.\xlrd\formula.py	/^    XLRDError, hex_char_dump, error_text_from_code, BaseObject$/;"	i
+update_cooked_mag_factors	.\xlrd\sheet.py	/^    def update_cooked_mag_factors(self):$/;"	m	class:Sheet
+upkbits	.\xlrd\biffh.py	/^def upkbits(tgt_obj, src, manifest, local_setattr=setattr):$/;"	f
+upkbits	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+upkbitsL	.\xlrd\biffh.py	/^def upkbitsL(tgt_obj, src, manifest, local_setattr=setattr, local_int=int):$/;"	f
+upkbitsL	.\xlrd\formatting.py	/^    XLRDError$/;"	i
+url	.\setup.py	/^    url = 'http:\/\/www.python-excel.org\/',$/;"	v
+url_or_path	.\xlrd\sheet.py	/^    url_or_path = None$/;"	v	class:Hyperlink
+usage	.\xlrd\examples\xlrdnameAPIdemo.py	/^    def usage():$/;"	f
+user_name	.\xlrd\book.py	/^    user_name = UNICODE_LITERAL('')$/;"	v	class:Book
+value	.\xlrd\formula.py	/^    value = None$/;"	v	class:Operand
+vbasic	.\xlrd\book.py	/^    vbasic = 0$/;"	v	class:Name
+version	.\setup.py	/^    version = __VERSION__,$/;"	v
+vert_align	.\xlrd\formatting.py	/^    vert_align = 0$/;"	v	class:XFAlignment
+vert_split_first_visible	.\xlrd\sheet.py	/^    vert_split_first_visible = 0$/;"	v	class:Sheet
+vert_split_pos	.\xlrd\sheet.py	/^    vert_split_pos = 0$/;"	v	class:Sheet
+vertical_page_breaks	.\xlrd\sheet.py	/^    vertical_page_breaks = []$/;"	v	class:Sheet
+visibility	.\xlrd\sheet.py	/^    visibility = 0$/;"	v	class:Sheet
+weight	.\xlrd\formatting.py	/^    weight = 400$/;"	v	class:Font
+width	.\xlrd\sheet.py	/^    width = 0$/;"	v	class:Colinfo
+write	.\scripts\runxlrd.py	/^        def write(self, text):$/;"	m	class:LogHandler
+x_dump_line	.\xlrd\compdoc.py	/^def x_dump_line(alist, stride, f, dpos, equal=0):$/;"	f
+xf_epilogue	.\xlrd\formatting.py	/^def xf_epilogue(self):$/;"	f
+xf_index	.\xlrd\formatting.py	/^    xf_index = 0$/;"	v	class:XF
+xf_index	.\xlrd\sheet.py	/^    xf_index = -1$/;"	v	class:Colinfo
+xf_list	.\xlrd\book.py	/^    xf_list = []$/;"	v	class:Book
+xldate	.\tests\test_xldate.py	/^from xlrd import xldate$/;"	i
+xldate	.\tests\test_xldate_to_datetime.py	/^from xlrd import xldate$/;"	i
+xldate_as_datetime	.\xlrd\__init__.py	/^from .xldate import XLDateError, xldate_as_tuple, xldate_as_datetime$/;"	i
+xldate_as_datetime	.\xlrd\xldate.py	/^def xldate_as_datetime(xldate, datemode):$/;"	f
+xldate_as_tuple	.\xlrd\__init__.py	/^from .xldate import XLDateError, xldate_as_tuple, xldate_as_datetime$/;"	i
+xldate_as_tuple	.\xlrd\xldate.py	/^def xldate_as_tuple(xldate, datemode):$/;"	f
+xldate_from_date_tuple	.\xlrd\xldate.py	/^def xldate_from_date_tuple(date_tuple, datemode):$/;"	f
+xldate_from_datetime_tuple	.\xlrd\xldate.py	/^def xldate_from_datetime_tuple(datetime_tuple, datemode):$/;"	f
+xldate_from_time_tuple	.\xlrd\xldate.py	/^def xldate_from_time_tuple(time_tuple):$/;"	f
+xlrd	.\scripts\runxlrd.py	/^    import xlrd$/;"	i
+xlrd	.\tests\test_cell.py	/^import xlrd$/;"	i
+xlrd	.\tests\test_formats.py	/^import xlrd$/;"	i
+xlrd	.\tests\test_formulas.py	/^import xlrd$/;"	i
+xlrd	.\tests\test_sheet.py	/^import xlrd$/;"	i
+xlrd	.\tests\test_xlsx_parse.py	/^import xlrd$/;"	i
+xlrd	.\xlrd\examples\xlrdnameAPIdemo.py	/^import xlrd$/;"	i
+xlsx	.\xlrd\__init__.py	/^            from . import xlsx$/;"	i
+xml	.\xlrd\xlsx.py	/^                    try: import xml.etree.ElementTree as ET$/;"	i
+xml	.\xlrd\xlsx.py	/^        import xml.etree.ElementTree as ET$/;"	i
+xml	.\xlrd\xlsx.py	/^        try: import xml.etree.cElementTree as ET$/;"	i
+xrange	.\scripts\runxlrd.py	/^    from xlrd.timemachine import xrange, REPR$/;"	i
+xrange	.\tests\test_sheet.py	/^from xlrd.timemachine import xrange$/;"	i
+xrange	.\xlrd\timemachine.py	/^    xrange = range$/;"	v
+xrange	.\xlrd\timemachine.py	/^    xrange = xrange$/;"	v
+zip_safe	.\setup.py	/^    zip_safe=False,$/;"	v
+zipfile	.\xlrd\__init__.py	/^import sys, zipfile, pprint$/;"	i

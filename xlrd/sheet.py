@@ -1972,7 +1972,8 @@ class Sheet(BaseObject):
         # There is a random/undefined byte after the author string (not counted in the
         # string length).
         # Issue 4 on github: Google Spreadsheet doesn't write the undefined byte.
-        assert (data_len - endpos) in (0, 1)
+        # XXX RW - Commented out so we can read GS files
+        #assert (data_len - endpos) in (0, 1)
         if OBJ_MSO_DEBUG:
             o.dump(self.logfile, header="=== Note ===", footer= " ")
         txo = txos.get(o._object_id)
